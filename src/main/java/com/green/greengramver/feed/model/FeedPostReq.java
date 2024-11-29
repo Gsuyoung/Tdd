@@ -1,4 +1,4 @@
-package com.green.greengramver.common.feed.model;
+package com.green.greengramver.feed.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.v3.oas.annotations.media.Schema;

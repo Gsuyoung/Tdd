@@ -24,13 +24,13 @@ public class UserController {
     @Operation(summary = "회원 가입")
     public ResultResponse<Integer> postSignUp(@RequestPart (required = false)MultipartFile pic, @RequestPart UserSignUpReq p) {
         int result = service.postSignUp(pic, p);
-        return ResultResponse.<Integer>builder().resultMessage("가입완료").resultData(result).build();
+        return ResultResponse.<Integer>builder().resultMsg("가입완료").resultData(result).build();
     }
 
     @PostMapping("sign-in")
     @Operation(summary = "로그인")
     public ResultResponse<UserSignInRes> postSignIn(@RequestBody UserSignInReq p) {
         UserSignInRes result = service.postSignIn(p);
-        return ResultResponse.<UserSignInRes>builder().resultMessage(result.getMessage()).resultData(result).build();
+        return ResultResponse.<UserSignInRes>builder().resultMsg(result.getMessage()).resultData(result).build();
     }
 }

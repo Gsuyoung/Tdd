@@ -1,12 +1,12 @@
-package com.green.greengramver.common.feed.model;
+package com.green.greengramver.feed.model;
 
 import io.swagger.v3.oas.annotations.media.Schema;
+import lombok.Builder;
 import lombok.Getter;
-import lombok.Setter;
 
 import java.util.List;
 
-@Setter
+@Builder
 @Getter
 @Schema(title = "피드 등록 응답")
 public class FeedPostRes {

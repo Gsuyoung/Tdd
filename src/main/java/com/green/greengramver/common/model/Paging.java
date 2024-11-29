@@ -7,8 +7,7 @@ import lombok.ToString;
 
 @Getter
 @ToString
-//생성자를 넣고싶으면 @Setter를 사용할 수 없다.
-//Setter를 빼서 지금 immutable한 상태
+
 public class Paging {
     private final static int DEFAULT_PAGE_SIZE = 20; //magic number
     @Schema(example = "1", description = "Selected Page")

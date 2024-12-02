@@ -1,6 +1,11 @@
 package com.green.greengramver.feed;
 
 import com.green.greengramver.common.MyFileUtils;
+import com.green.greengramver.feed.comment.FeedCommentController;
+import com.green.greengramver.feed.comment.FeedCommentMapper;
+import com.green.greengramver.feed.comment.model.FeedCommentDto;
+import com.green.greengramver.feed.comment.model.FeedCommentGetReq;
+import com.green.greengramver.feed.comment.model.FeedCommentGetRes;
 import com.green.greengramver.feed.model.*;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -18,7 +23,9 @@ import java.util.List;
 public class FeedService {
     private final FeedMapper feedMapper;
     private final FeedPicsMapper feedPicsMapper;
+    private final FeedCommentMapper feedCommentMapper;
     private final MyFileUtils myFileUtils;
+    private final FeedCommentController feedCommentController;
 
     @Transactional //메서드 실행이 완료되면 트랜잭션을 커밋하거나 예외가 발생하면 롤백한다.
     public FeedPostRes postFeed (List<MultipartFile> pics, FeedPostReq p) {
@@ -61,10 +68,27 @@ public class FeedService {
     }
 
     public List<FeedGetRes> getFeedList(FeedGetReq p) {
+        //N + 1 이슈 발생 --> 한번 가져온 이후 FOR문으로 크기만큼 도니까 4번돌게 5번 돌게 된다.(처리속도도 느려진다.)
         List<FeedGetRes> feedGetResList = feedMapper.selFeedList(p);
         for (FeedGetRes res : feedGetResList) {
+            //피드 당 사진 리스트
             List<String> resList = feedPicsMapper.selFeedPicList(res.getFeedId());
             res.setPics(resList);
+
+            //피드 당 댓글 4개
+            FeedCommentGetReq commentGetReq = new FeedCommentGetReq();
+            commentGetReq.setPage(1);
+            commentGetReq.setFeedId(res.getFeedId());
+
+            List<FeedCommentDto> commentList = feedCommentMapper.selFeedCommentList(commentGetReq);
+            FeedCommentGetRes commentGetRes = new FeedCommentGetRes();
+            commentGetRes.setCommentList(commentList);
+            commentGetRes.setMoreComment(commentList.size() == 4);
+
+            if(commentGetRes.isMoreComment()) {
+                commentList.remove(commentList.size() - 1 );
+            }
+            res.setComment(commentGetRes);
         }
         return feedGetResList;
     }

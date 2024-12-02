@@ -1,5 +1,6 @@
 package com.green.greengramver.feed.model;
 
+import com.green.greengramver.feed.comment.model.FeedCommentGetRes;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
@@ -20,5 +21,6 @@ public class FeedGetRes {
     private String location;
     private int isLIKE;
 
-    private List<String> pics = new ArrayList<>();
+    private List<String> pics;
+    private FeedCommentGetRes comment;
 }

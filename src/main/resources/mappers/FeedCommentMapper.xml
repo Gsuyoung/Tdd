@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.green.greengramver.feed.comment.FeedCommentMapper">
+
+    <insert id = "insFeedComment" useGeneratedKeys="true" keyProperty="feedCommentId">
+        INSERT INTO feed_comments
+        SET `feed_id` = #{feedId},
+        `user_id` = #{userId},
+        `comment` = #{comment}
+    </insert>
+
+    <select id = "selFeedCommentList">
+        SELECT A.feed_comment_id AS feedCommentId,
+               A.comment,
+               B.user_id AS writerUserId,
+               IF(B.nick_name is NULL, B.uid, B.nick_name) AS writerNm,
+               B.pic AS writerPic
+        FROM feed_comments A
+        INNER JOIN user B
+        ON A.user_id = B.user_id
+        WHERE A.feed_id = #{feedId}
+        ORDER BY A.feed_comment_id DESC
+        LIMIT #{startIdx}, #{size}
+    </select>
+
+
+
+
+
+</mapper>

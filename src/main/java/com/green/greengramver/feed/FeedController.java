@@ -1,5 +1,8 @@
 package com.green.greengramver.feed;
 
+import com.green.greengramver.feed.comment.FeedCommentMapper;
+import com.green.greengramver.feed.comment.model.FeedCommentDto;
+import com.green.greengramver.feed.comment.model.FeedCommentGetReq;
 import com.green.greengramver.feed.model.FeedGetReq;
 import com.green.greengramver.feed.model.FeedGetRes;
 import com.green.greengramver.feed.model.FeedPostReq;

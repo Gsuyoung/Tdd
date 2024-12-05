@@ -41,7 +41,7 @@ public class FeedService {
         myFileUtils.makeFolders(middlePath);
 
         //랜덤 파일명 저장 --> feed_pics 테이블에 저장할 때 사용
-        //pics.size() 넣은 이유 --> for문을 돌리면 돌릴때마다 배열크기를증가시켜야하는데 이렇게 사용하면
+        //pics.size() 넣은 이유 --> for문을 돌리면 돌릴때마다 배열크기를 증가시켜야하는데 이렇게 사용하면
         //처음부터 크기를 정하여 셋팅할수있기때문에 효율이 좋다.
         List<String> picNameList = new ArrayList<>(pics.size());
 
@@ -76,16 +76,14 @@ public class FeedService {
             res.setPics(resList);
 
             //피드 당 댓글 4개
-            FeedCommentGetReq commentGetReq = new FeedCommentGetReq();
-            commentGetReq.setPage(1);
-            commentGetReq.setFeedId(res.getFeedId());
+            FeedCommentGetReq commentGetReq = new FeedCommentGetReq(res.getFeedId(),0,3);
+            List<FeedCommentDto> commentList = feedCommentMapper.selFeedCommentList(commentGetReq); // 0에서 4까지
 
-            List<FeedCommentDto> commentList = feedCommentMapper.selFeedCommentList(commentGetReq);
             FeedCommentGetRes commentGetRes = new FeedCommentGetRes();
             commentGetRes.setCommentList(commentList);
-            commentGetRes.setMoreComment(commentList.size() == 4);
+            commentGetRes.setMoreComment(commentList.size() == commentGetReq.getSize());
 
-            if(commentGetRes.isMoreComment()) {
+            if(commentGetRes.isMoreComment()) { //size가 4개가 넘는다면 빼는 과정
                 commentList.remove(commentList.size() - 1 );
             }
             res.setComment(commentGetRes);

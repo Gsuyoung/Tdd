@@ -15,16 +15,8 @@
     
     <select id="selUserByUid">
         SELECT user_id AS userId,
-        IFNULL(nick_name,uid) AS nickName,
-        pic, upw
+        IFNULL(nick_name,uid) AS nickName, pic, upw
         FROM user
         WHERE uid = #{uid}
     </select>
-
-
-
-
-
-
-
 </mapper>

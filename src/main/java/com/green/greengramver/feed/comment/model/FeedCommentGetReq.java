@@ -1,17 +1,19 @@
 package com.green.greengramver.feed.comment.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.green.greengramver.common.Constants;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
-import lombok.Setter;
+import lombok.ToString;
+
+import java.beans.ConstructorProperties;
 
 @Getter
-@Setter
+@ToString
 public class FeedCommentGetReq{
     private final static int FIRST_COMMENT_SIZE = 3;
-    private final static int DEFAULT_PAGE_SIZE = 20;
 
-    @Schema(title = "피드 PK", example = "1", requiredMode = Schema.RequiredMode.REQUIRED)
+    @Schema(title = "피드 PK", name="feed_id",example = "1", requiredMode = Schema.RequiredMode.REQUIRED)
     private long feedId;
 
     @JsonIgnore
@@ -21,16 +23,10 @@ public class FeedCommentGetReq{
     private int size;
 
 
-    public void setPage(int page) {
-       if(page < 1) {
-           return;
-       }
-       if(page == 1) {
-           startIdx = 0;
-           size = FIRST_COMMENT_SIZE + 1; // +1은 isMore 처리용
-           return;
-       }
-       startIdx = ((page - 2) * DEFAULT_PAGE_SIZE) + FIRST_COMMENT_SIZE;
-       size = DEFAULT_PAGE_SIZE + 1; //+1은 isMore 처리용
+    @ConstructorProperties({"feed_id", "start_idx", "size"})
+    public FeedCommentGetReq(long feedId, int startIdx, Integer size) {
+        this.feedId = feedId;
+        this.startIdx = startIdx;
+        this.size = (size == null ? Constants.getDefault_page_size() : size) + 1;
     }
 }

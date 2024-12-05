@@ -1,8 +1,5 @@
 package com.green.greengramver.feed;
 
-import com.green.greengramver.feed.comment.FeedCommentMapper;
-import com.green.greengramver.feed.comment.model.FeedCommentDto;
-import com.green.greengramver.feed.comment.model.FeedCommentGetReq;
 import com.green.greengramver.feed.model.FeedGetReq;
 import com.green.greengramver.feed.model.FeedGetRes;
 import com.green.greengramver.feed.model.FeedPostReq;
@@ -14,8 +11,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springdoc.core.annotations.ParameterObject;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-
-import java.util.ArrayList;
 import java.util.List;
 
 @Slf4j

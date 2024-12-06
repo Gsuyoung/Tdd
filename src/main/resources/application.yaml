@@ -2,7 +2,7 @@ const:
   default-page-size: 20
 
 file:
-  directory: D:\GSY\GreenGramVer\greengramver
+  directory: D:\GSY\GreenGramVer3\greengram_ver3
 
 mybatis:
   mapper-locations: mappers/**/*.xml
@@ -12,7 +12,7 @@ spring:
     name: GreenGramVer2
   datasource:
      driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-     url: jdbc:log4jdbc:mariadb://localhost/greengram_ver2
+     url: jdbc:log4jdbc:mariadb://localhost/greengram_ver3
      username: root
      password: green502
   servlet:

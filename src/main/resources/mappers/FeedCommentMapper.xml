@@ -4,7 +4,7 @@
 <mapper namespace="com.green.greengram.feed.comment.FeedCommentMapper">
 
     <insert id = "insFeedComment" useGeneratedKeys="true" keyProperty="feedCommentId">
-        INSERT INTO feed_comments
+        INSERT INTO feed_comment
         SET `feed_id` = #{feedId},
         `user_id` = #{userId},
         `comment` = #{comment}

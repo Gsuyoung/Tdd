@@ -1,13 +1,12 @@
 package com.green.greengram.user;
 
 import com.green.greengram.common.model.ResultResponse;
-import com.green.greengram.user.model.UserSignInReq;
-import com.green.greengram.user.model.UserSignInRes;
-import com.green.greengram.user.model.UserSignUpReq;
+import com.green.greengram.user.model.*;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springdoc.core.annotations.ParameterObject;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -32,4 +31,26 @@ public class UserController {
         UserSignInRes result = service.postSignIn(p);
         return ResultResponse.<UserSignInRes>builder().resultMsg(result.getMessage()).resultData(result).build();
     }
+
+    @GetMapping
+    @Operation(summary = "유저 프로필 정보")
+    public ResultResponse<UserInfoGetRes> getUserInfo(@ParameterObject @ModelAttribute UserInfoGetReq p) {
+        log.info("UserController > getUserInfo > p: {}", p);
+        UserInfoGetRes result = service.getUserInfo(p);
+        return ResultResponse.<UserInfoGetRes>builder()
+                             .resultMsg("유저 프로필 정보")
+                             .resultData(result)
+                             .build();
+    }
+
+    @PatchMapping("pic") //부분 수정일경우 PatchMapping
+    public ResultResponse<String> patchProfilePic(@ModelAttribute UserPicPatchReq p) {
+        log.info("UserController > patchProfilePic > p: {}", p);
+        String pic = service.patchUserPic(p);
+        return ResultResponse.<String>builder()
+                             .resultMsg("프로필 사진 수정 완료")
+                             .resultData(pic)
+                             .build();
+    }
+
 }

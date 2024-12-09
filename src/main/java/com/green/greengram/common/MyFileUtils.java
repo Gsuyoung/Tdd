@@ -15,10 +15,14 @@ import java.util.UUID;
 public class MyFileUtils {
     private final String uploadPath; //uploadpath에 저장되어있는 값 : D:/GSY/download/greengram_ver1
 
+    public String getUploadPath() {
+        return uploadPath;
+    }
+
     /*
-    @Value("${file.directory}")은 yaml 파일에 있는 file.directory 속성에 저장된 값을 생성자 호출할 때 값을 넣어준다.
-    DI한것
-     */
+        @Value("${file.directory}")은 yaml 파일에 있는 file.directory 속성에 저장된 값을 생성자 호출할 때 값을 넣어준다.
+        DI한것
+         */
     public MyFileUtils(@Value("${file.directory}") String uploadPath) {
         log.info("MyFileUtils - 생성자: {}", uploadPath);
         this.uploadPath = uploadPath;
@@ -64,6 +68,26 @@ public class MyFileUtils {
     public void transferTo(MultipartFile mf, String path) throws IOException {
         File file = new File(uploadPath, path);
         mf.transferTo(file);
+    }
+
+    //폴더 삭제, e.g. "user/1"
+    public void deleteFolder(String path, boolean deleteRootFolder) {
+        File folder = new File(path);
+        if(folder.exists() && folder.isDirectory()) { //폴더가 존재하면서 디렉토리인가?
+            File[] includeFiles = folder.listFiles(); //포함되어있는 폴더나 파일을 배열로 가져온다.
+
+            for(File f : includeFiles) {
+                if(f.isDirectory()) {
+                    deleteFolder(f.getAbsolutePath(), true);
+                } else {
+                    f.delete();
+                }
+            }
+
+            if(deleteRootFolder) {
+                folder.delete();
+            }
+        }
     }
 }
 

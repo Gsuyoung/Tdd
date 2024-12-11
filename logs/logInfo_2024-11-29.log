@@ -1904,8 +1904,8 @@ java.sql.SQLIntegrityConstraintViolationException: (conn=34) Cannot add or updat
 |--------|---------|---------|--------------------|--------|---------|----|-------|
 
 [2024-11-29 14:27:59 [31mERROR[0;39mhttp-nio-8080-exec-7] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]][0;39m
- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.green.greengram.feed.FeedPicsMapper.selFeedPics] with root cause
-org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.green.greengram.feed.FeedPicsMapper.selFeedPics
+ Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.green.greengram.feed.FeedPicMapper.selFeedPics] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.green.greengram.feed.FeedPicMapper.selFeedPics
 	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
 	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
 	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)

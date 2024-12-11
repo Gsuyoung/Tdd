@@ -1,6 +1,7 @@
 package com.green.greengram.feed.comment;
 
 import com.green.greengram.feed.comment.model.*;
+import com.green.greengram.feed.model.FeedGetRes;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

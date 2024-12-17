@@ -41,21 +41,21 @@ public class TokenProvider { //springcontainer가 직접 객체생성. 빈등록
     }
 
     private String makeToken(JwtUser jwtUser, Date expiry) {
-        //JWT 암호화 하는 과정
+        //JWT 암호화 하는 과정 (문자열)
         return Jwts.builder()
-                .header().add("typ", "JWT")//(KEY, VALUE) -- header(헤더)
-                         .add("alg", "HS256")
+                .header().type("JWT")//(KEY, VALUE) -- header(헤더)
                 .and()
                 .issuer(jwtProperties.getIssuer()) //-- 내용
                 .issuedAt(new Date())
                 .expiration(expiry)
                 .claim("signedUser", makeClaimByUserToString(jwtUser))
                 .signWith(secretKey) //-- 서명
-                .compact();
+                .compact(); //return 타입은 String. private String으로 선언하였고 그값을 리턴할 수 있으므로
+                            //String 타입이 된다.
     }
 
     private String makeClaimByUserToString(JwtUser jwtUser) {
-        //객체 자체를 JWT에 담고 싶어서 객체를 직렬화하는 과정
+        //객체 자체를 JWT에 담고 싶어서 객체를 직렬화하는 과정(객체를 String으로 바꾸는 작업)
         //jwtUser에 담고있는 데이터를 JSON형태의 문자열로 변환
         try {
             return objectMapper.writeValueAsString(jwtUser);
@@ -85,7 +85,12 @@ public class TokenProvider { //springcontainer가 직접 객체생성. 빈등록
         //객체를 문자열로 바꿨고 다시 빼내와서 객체화 시키는 과정
         Claims claims = getClaims(token);
         String json = (String) claims.get("signedUser");
-        JwtUser jwtUser = objectMapper.convertValue(json, JwtUser.class);
+        JwtUser jwtUser = null;
+        try {
+            jwtUser = objectMapper.readValue(json, JwtUser.class);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
         MyUserDetails userDetails = new MyUserDetails();
         userDetails.setJwtUser(jwtUser);
         return userDetails;

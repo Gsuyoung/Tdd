@@ -6,7 +6,7 @@ file:
 
 jwt:
   issuer: green@green.kr
-  secret-key: study-springboot
+  secret-key: studyspringbootadfadfasdfasdfadsfadfadsfasdfweqerqewrdfasdf11111111
 
 mybatis:
   mapper-locations: mappers/**/*.xml

@@ -1,6 +1,6 @@
-[2024-11-28 12:40:57 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 12:40:57 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 10800 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 12:40:57 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 12:40:57 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 12:40:57 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -26,7 +26,7 @@
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 12:40:58 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 12:40:58 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 12:40:58 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.881 seconds (process running for 2.508)
 [2024-11-28 12:41:10 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -34,9 +34,9 @@
  Initializing Servlet 'dispatcherServlet'
 [2024-11-28 12:41:10 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.springframework.web.servlet.DispatcherServlet][0;39m
  Completed initialization in 0 ms
-[2024-11-28 12:42:36 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 12:42:36 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 10052 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 12:42:36 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 12:42:36 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 12:42:36 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -64,7 +64,7 @@
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 12:42:37 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 12:42:37 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 12:42:37 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.609 seconds (process running for 1.965)
 [2024-11-28 12:42:44 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -76,9 +76,9 @@
  Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'pic' is not present.]
 [2024-11-28 12:43:01 [33mWARN [0;39mhttp-nio-8080-exec-3] [[36m[org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver][0;39m
  Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'pic' is not present.]
-[2024-11-28 12:45:02 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 12:45:02 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 12308 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 12:45:02 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 12:45:02 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 12:45:02 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -106,7 +106,7 @@
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 12:45:03 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 12:45:04 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 12:45:04 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.633 seconds (process running for 1.983)
 [2024-11-28 12:45:08 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -284,9 +284,9 @@ java.lang.RuntimeException: Driver net.sf.log4jdbc.sql.jdbcapi.DriverSpy claims 
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 	at java.base/java.lang.Thread.run(Thread.java:840)
-[2024-11-28 12:49:04 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 12:49:04 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 10356 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 12:49:04 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 12:49:04 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 12:49:04 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -314,7 +314,7 @@ java.lang.RuntimeException: Driver net.sf.log4jdbc.sql.jdbcapi.DriverSpy claims 
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 12:49:05 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 12:49:05 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 12:49:05 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.629 seconds (process running for 1.962)
 [2024-11-28 12:49:07 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -632,9 +632,9 @@ nick_name = 'zmzm', pic = 'fc644418-f5c6-461f-8fd3-dee165ae29d8'  {executed in 0
  10. Connection.close() returned 
 [2024-11-28 13:08:02 [32mINFO [0;39mThread-5] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-1 - Shutdown completed.
-[2024-11-28 13:08:02 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 13:08:02 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 10356 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 13:08:02 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 13:08:02 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 13:08:03 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -658,7 +658,7 @@ nick_name = 'zmzm', pic = 'fc644418-f5c6-461f-8fd3-dee165ae29d8'  {executed in 0
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 13:08:03 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 13:08:03 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 13:08:03 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.345 seconds (process running for 1139.838)
 [2024-11-28 13:08:03 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -666,9 +666,9 @@ nick_name = 'zmzm', pic = 'fc644418-f5c6-461f-8fd3-dee165ae29d8'  {executed in 0
  Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
 [2024-11-28 13:10:50 [32mINFO [0;39mThread-7] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-11-28 13:10:50 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 13:10:50 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 10356 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 13:10:50 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 13:10:50 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 13:10:50 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -692,7 +692,7 @@ nick_name = 'zmzm', pic = 'fc644418-f5c6-461f-8fd3-dee165ae29d8'  {executed in 0
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 13:10:51 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 13:10:51 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 13:10:51 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.339 seconds (process running for 1307.534)
 [2024-11-28 13:10:51 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -700,9 +700,9 @@ nick_name = 'zmzm', pic = 'fc644418-f5c6-461f-8fd3-dee165ae29d8'  {executed in 0
  Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 [2024-11-28 13:11:21 [32mINFO [0;39mThread-11] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-11-28 13:11:21 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 13:11:21 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 10356 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 13:11:21 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 13:11:21 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 13:11:21 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -726,13 +726,13 @@ nick_name = 'zmzm', pic = 'fc644418-f5c6-461f-8fd3-dee165ae29d8'  {executed in 0
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 13:11:21 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 13:11:21 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 13:11:21 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.29 seconds (process running for 1338.18)
 [2024-11-28 13:11:21 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
-[2024-11-28 14:44:33 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 14:44:33 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 11360 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 14:44:33 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 14:44:33 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:44:33 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -760,7 +760,7 @@ nick_name = 'zmzm', pic = 'fc644418-f5c6-461f-8fd3-dee165ae29d8'  {executed in 0
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:44:35 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:44:35 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 14:44:35 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.634 seconds (process running for 1.972)
 [2024-11-28 14:44:38 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -1022,9 +1022,9 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  10. Connection.close() returned 
 [2024-11-28 14:45:30 [32mINFO [0;39mThread-5] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-1 - Shutdown completed.
-[2024-11-28 14:45:30 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 14:45:30 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 11360 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 14:45:30 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 14:45:30 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:45:31 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1048,7 +1048,7 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:45:31 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:45:31 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 14:45:31 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.35 seconds (process running for 57.84)
 [2024-11-28 14:45:31 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1056,9 +1056,9 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Restarting due to 22 class path changes (0 additions, 0 deletions, 22 modifications)
 [2024-11-28 14:51:55 [32mINFO [0;39mThread-7] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-11-28 14:51:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 14:51:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 11360 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 14:51:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 14:51:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:51:55 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1082,7 +1082,7 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:51:55 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:51:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 14:51:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.296 seconds (process running for 442.594)
 [2024-11-28 14:51:55 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1090,9 +1090,9 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
 [2024-11-28 14:55:01 [32mINFO [0;39mThread-11] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-11-28 14:55:01 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 14:55:01 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 11360 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 14:55:01 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 14:55:01 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 14:55:01 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1116,7 +1116,7 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 14:55:01 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 14:55:01 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 14:55:01 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.283 seconds (process running for 628.69)
 [2024-11-28 14:55:01 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1124,9 +1124,9 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
 [2024-11-28 15:01:17 [32mINFO [0;39mThread-15] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-11-28 15:01:17 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:01:17 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 11360 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 15:01:17 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:01:17 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:01:17 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1150,13 +1150,13 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:01:18 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:01:18 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:01:18 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.318 seconds (process running for 1004.755)
 [2024-11-28 15:01:18 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
-[2024-11-28 15:08:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:08:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 11248 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 15:08:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:08:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:08:28 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -1184,7 +1184,7 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:08:29 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:08:29 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:08:29 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.607 seconds (process running for 1.931)
 [2024-11-28 15:08:39 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -1194,9 +1194,9 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Completed initialization in 0 ms
 [2024-11-28 15:08:39 [33mWARN [0;39mhttp-nio-8080-exec-1] [[36m[org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver][0;39m
  Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
-[2024-11-28 15:09:26 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:09:26 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 11508 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 15:09:26 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:09:26 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:09:26 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -1224,7 +1224,7 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:09:28 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:09:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:09:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.608 seconds (process running for 1.973)
 [2024-11-28 15:09:30 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -1580,9 +1580,9 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  10. Connection.close() returned 
 [2024-11-28 15:21:17 [32mINFO [0;39mThread-5] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-1 - Shutdown completed.
-[2024-11-28 15:21:17 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:21:17 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 11508 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 15:21:17 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:21:17 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:21:17 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1606,13 +1606,13 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:21:18 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:21:18 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:21:18 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.357 seconds (process running for 711.81)
 [2024-11-28 15:21:18 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
-[2024-11-28 15:22:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:22:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 12348 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 15:22:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:22:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:22:47 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -1640,7 +1640,7 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:22:49 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:22:49 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:22:49 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.593 seconds (process running for 1.926)
 [2024-11-28 15:22:53 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -1992,9 +1992,9 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  10. Connection.close() returned 
 [2024-11-28 15:26:25 [32mINFO [0;39mSpringApplicationShutdownHook] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-1 - Shutdown completed.
-[2024-11-28 15:26:27 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:26:27 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 11580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 15:26:27 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:26:27 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:26:27 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -2022,7 +2022,7 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:26:28 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:26:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:26:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.631 seconds (process running for 1.959)
 [2024-11-28 15:26:33 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -2337,13 +2337,13 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  10. Connection.close() returned 
 [2024-11-28 15:26:49 [32mINFO [0;39mSpringApplicationShutdownHook] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-1 - Shutdown completed.
-[2024-11-28 15:26:51 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:26:51 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 9408 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 15:26:51 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:26:51 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
-[2024-11-28 15:26:53 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:26:53 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 13208 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 15:26:53 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:26:53 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:26:53 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -2371,7 +2371,7 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:26:54 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:26:54 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:26:54 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.804 seconds (process running for 2.493)
 [2024-11-28 15:27:08 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -2499,9 +2499,9 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  3. Connection.close() returned 
 [2024-11-28 15:27:53 [32mINFO [0;39mSpringApplicationShutdownHook] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-1 - Shutdown completed.
-[2024-11-28 15:27:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:27:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 9148 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 15:27:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:27:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:27:55 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -2529,7 +2529,7 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:27:56 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:27:56 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:27:56 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.863 seconds (process running for 2.257)
 [2024-11-28 15:27:57 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -3210,9 +3210,9 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  10. Connection.close() returned 
 [2024-11-28 15:29:19 [32mINFO [0;39mSpringApplicationShutdownHook] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-1 - Shutdown completed.
-[2024-11-28 15:29:21 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:29:21 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 3712 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 15:29:21 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:29:21 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:29:21 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -3240,7 +3240,7 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:29:22 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:29:22 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:29:22 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.786 seconds (process running for 2.17)
 [2024-11-28 15:29:28 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -3568,9 +3568,9 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  10. Connection.close() returned 
 [2024-11-28 15:30:25 [32mINFO [0;39mSpringApplicationShutdownHook] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-1 - Shutdown completed.
-[2024-11-28 15:30:27 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:30:27 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 11040 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 15:30:27 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:30:27 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:30:27 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -3598,7 +3598,7 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:30:29 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:30:29 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:30:29 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.817 seconds (process running for 2.196)
 [2024-11-28 15:30:32 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -3863,9 +3863,9 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  10. Connection.close() returned 
 [2024-11-28 15:31:18 [32mINFO [0;39mSpringApplicationShutdownHook] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-1 - Shutdown completed.
-[2024-11-28 15:31:21 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:31:21 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 11272 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 15:31:21 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:31:21 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:31:21 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -3893,7 +3893,7 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:31:22 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:31:22 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:31:22 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.817 seconds (process running for 2.306)
 [2024-11-28 15:31:29 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -4162,9 +4162,9 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  10. Connection.close() returned 
 [2024-11-28 15:56:56 [32mINFO [0;39mThread-5] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-1 - Shutdown completed.
-[2024-11-28 15:56:56 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:56:56 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 11272 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 15:56:56 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:56:56 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 15:56:56 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -4188,7 +4188,7 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 15:56:56 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 15:56:56 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 15:56:56 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.353 seconds (process running for 1536.469)
 [2024-11-28 15:56:56 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -4196,9 +4196,9 @@ nick_name = NULL, pic = NULL  {executed in 0 ms}
  Restarting due to 28 class path changes (6 additions, 0 deletions, 22 modifications)
 [2024-11-28 16:04:15 [32mINFO [0;39mThread-7] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-11-28 16:04:15 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 16:04:15 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 11272 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 16:04:15 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 16:04:15 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 16:04:15 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -4242,7 +4242,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at com.green.greengram.GreenGramVer3Application.main(GreenGramVerApplication.java:10)
+	at com.green.greengram.GreenGramApplication.main(GreenGramVerApplication.java:10)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -4349,9 +4349,9 @@ Caused by: org.xml.sax.SAXParseException: 예기치 않은 파일의 끝입니�
 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
 	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:260)
 	... 88 common frames omitted
-[2024-11-28 16:09:44 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 16:09:44 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 11272 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 16:09:44 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 16:09:44 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 16:09:44 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -4375,7 +4375,7 @@ Caused by: org.xml.sax.SAXParseException: 예기치 않은 파일의 끝입니�
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 16:09:44 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 16:09:44 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 16:09:44 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.349 seconds (process running for 2304.315)
 [2024-11-28 16:09:44 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -4383,9 +4383,9 @@ Caused by: org.xml.sax.SAXParseException: 예기치 않은 파일의 끝입니�
  Restarting due to 25 class path changes (1 addition, 0 deletions, 24 modifications)
 [2024-11-28 16:24:28 [32mINFO [0;39mThread-11] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-11-28 16:24:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 16:24:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 11272 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-11-28 16:24:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 16:24:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-11-28 16:24:28 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -4409,7 +4409,7 @@ Caused by: org.xml.sax.SAXParseException: 예기치 않은 파일의 끝입니�
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-11-28 16:24:28 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-11-28 16:24:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-11-28 16:24:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.333 seconds (process running for 3188.523)
 [2024-11-28 16:24:28 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged

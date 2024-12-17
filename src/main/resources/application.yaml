@@ -4,6 +4,10 @@ const:
 file:
   directory: D:\GSY\GreenGramVer3\greengram_ver3
 
+jwt:
+  issuer: green@green.kr
+  secret-key: study-springboot
+
 mybatis:
   mapper-locations: mappers/**/*.xml
 

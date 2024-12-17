@@ -1,6 +1,6 @@
-[2024-12-02 12:22:51 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:22:51 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 6132 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 12:22:51 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:22:51 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 12:22:51 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -28,7 +28,7 @@
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 12:22:52 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 12:22:52 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:22:52 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.898 seconds (process running for 2.342)
 [2024-12-02 12:23:00 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -496,9 +496,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  HikariPool-1 - Shutdown initiated...
 [2024-12-02 12:23:52 [32mINFO [0;39mSpringApplicationShutdownHook] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-1 - Shutdown completed.
-[2024-12-02 12:23:54 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:23:54 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 12:23:54 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:23:54 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 12:23:55 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -526,7 +526,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 12:23:56 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 12:23:56 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:23:56 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.644 seconds (process running for 1.989)
 [2024-12-02 12:23:57 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -570,9 +570,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  HikariPool-1 - Shutdown initiated...
 [2024-12-02 12:33:45 [32mINFO [0;39mThread-5] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-1 - Shutdown completed.
-[2024-12-02 12:33:45 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:33:45 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 12:33:45 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:33:45 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 12:33:45 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -596,7 +596,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 12:33:45 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 12:33:45 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:33:45 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.384 seconds (process running for 591.436)
 [2024-12-02 12:33:45 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -604,9 +604,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 [2024-12-02 12:35:09 [32mINFO [0;39mThread-7] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 12:35:09 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:35:09 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 12:35:09 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:35:09 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 12:35:10 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -630,7 +630,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 12:35:10 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 12:35:10 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:35:10 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.329 seconds (process running for 675.831)
 [2024-12-02 12:35:10 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -638,9 +638,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 [2024-12-02 12:38:39 [32mINFO [0;39mThread-11] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 12:38:39 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:38:39 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 12:38:39 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:38:39 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 12:38:40 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -664,7 +664,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 12:38:40 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 12:38:40 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:38:40 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.317 seconds (process running for 885.955)
 [2024-12-02 12:38:40 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -672,9 +672,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
 [2024-12-02 12:43:34 [32mINFO [0;39mThread-15] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 12:43:34 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:43:34 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 12:43:34 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:43:34 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 12:43:34 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -698,7 +698,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 12:43:34 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 12:43:34 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:43:34 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.336 seconds (process running for 1180.491)
 [2024-12-02 12:43:34 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -706,9 +706,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
 [2024-12-02 12:45:29 [32mINFO [0;39mThread-19] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 12:45:29 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:45:29 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 12:45:29 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:45:29 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 12:45:29 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -732,7 +732,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 12:45:29 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 12:45:29 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:45:29 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.322 seconds (process running for 1295.357)
 [2024-12-02 12:45:29 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1084,9 +1084,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  HikariPool-2 - Shutdown initiated...
 [2024-12-02 12:50:33 [32mINFO [0;39mThread-23] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-2 - Shutdown completed.
-[2024-12-02 12:50:33 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:50:33 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 12:50:33 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:50:33 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 12:50:33 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1110,7 +1110,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 12:50:34 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 12:50:34 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:50:34 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.294 seconds (process running for 1599.725)
 [2024-12-02 12:50:34 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1156,9 +1156,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  HikariPool-3 - Shutdown initiated...
 [2024-12-02 12:51:38 [32mINFO [0;39mThread-27] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-3 - Shutdown completed.
-[2024-12-02 12:51:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:51:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 12:51:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:51:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 12:51:38 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1182,7 +1182,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 12:51:38 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 12:51:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:51:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.292 seconds (process running for 1664.35)
 [2024-12-02 12:51:38 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1190,9 +1190,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 [2024-12-02 12:54:46 [32mINFO [0;39mThread-31] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 12:54:46 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:54:46 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 12:54:46 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:54:46 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 12:54:46 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1216,7 +1216,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 12:54:47 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 12:54:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:54:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.288 seconds (process running for 1852.768)
 [2024-12-02 12:54:47 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1224,9 +1224,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
 [2024-12-02 12:57:03 [32mINFO [0;39mThread-35] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 12:57:03 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:57:03 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 12:57:03 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:57:03 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 12:57:03 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1250,7 +1250,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 12:57:03 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 12:57:03 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:57:03 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.339 seconds (process running for 1989.439)
 [2024-12-02 12:57:03 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1258,9 +1258,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 [2024-12-02 12:57:37 [32mINFO [0;39mThread-39] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 12:57:37 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:57:37 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 12:57:37 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:57:37 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 12:57:37 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1284,7 +1284,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 12:57:37 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 12:57:37 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:57:37 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.309 seconds (process running for 2023.284)
 [2024-12-02 12:57:37 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1292,9 +1292,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 [2024-12-02 12:58:27 [32mINFO [0;39mThread-43] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 12:58:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:58:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 12:58:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:58:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 12:58:28 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1318,7 +1318,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 12:58:28 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 12:58:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 12:58:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.292 seconds (process running for 2074.023)
 [2024-12-02 12:58:28 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1326,9 +1326,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 [2024-12-02 13:05:28 [32mINFO [0;39mThread-47] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 13:05:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:05:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 13:05:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:05:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 13:05:28 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1352,7 +1352,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 13:05:28 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 13:05:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:05:28 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.318 seconds (process running for 2494.221)
 [2024-12-02 13:05:28 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1360,9 +1360,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 [2024-12-02 13:06:47 [32mINFO [0;39mThread-51] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 13:06:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:06:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 13:06:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:06:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 13:06:47 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1386,7 +1386,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 13:06:47 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 13:06:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:06:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.302 seconds (process running for 2573.388)
 [2024-12-02 13:06:47 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1394,9 +1394,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 [2024-12-02 13:09:27 [32mINFO [0;39mThread-55] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 13:09:27 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:09:27 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 13:09:27 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:09:27 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 13:09:27 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1420,7 +1420,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 13:09:27 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 13:09:27 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:09:27 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.3 seconds (process running for 2733.154)
 [2024-12-02 13:09:27 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1428,9 +1428,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
 [2024-12-02 13:11:10 [32mINFO [0;39mThread-59] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 13:11:11 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:11:11 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 13:11:11 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:11:11 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 13:11:11 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1454,7 +1454,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 13:11:11 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 13:11:11 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:11:11 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.291 seconds (process running for 2836.995)
 [2024-12-02 13:11:11 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1462,9 +1462,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
 [2024-12-02 13:13:51 [32mINFO [0;39mThread-63] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 13:13:51 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:13:51 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 13:13:51 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:13:51 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 13:13:51 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1488,7 +1488,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 13:13:51 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 13:13:51 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:13:51 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.284 seconds (process running for 2997.074)
 [2024-12-02 13:13:51 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1496,9 +1496,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 [2024-12-02 13:15:02 [32mINFO [0;39mThread-67] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 13:15:02 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:15:02 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 13:15:02 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:15:02 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 13:15:02 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1522,7 +1522,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 13:15:02 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 13:15:02 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 13:15:02 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.293 seconds (process running for 3068.617)
 [2024-12-02 13:15:02 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1536,9 +1536,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 [2024-12-02 14:26:38 [32mINFO [0;39mThread-71] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 14:26:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:26:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 14:26:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:26:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 14:26:38 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1562,7 +1562,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 14:26:38 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 14:26:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:26:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.358 seconds (process running for 7364.517)
 [2024-12-02 14:26:38 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1570,9 +1570,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 [2024-12-02 14:27:23 [32mINFO [0;39mThread-75] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 14:27:24 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:27:24 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 14:27:24 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:27:24 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 14:27:24 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1596,7 +1596,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 14:27:24 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 14:27:24 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:27:24 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.311 seconds (process running for 7410.065)
 [2024-12-02 14:27:24 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1604,9 +1604,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 [2024-12-02 14:31:06 [32mINFO [0;39mThread-79] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 14:31:06 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:31:06 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 14:31:06 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:31:06 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 14:31:06 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1630,7 +1630,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 14:31:06 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 14:31:06 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:31:06 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.283 seconds (process running for 7632.235)
 [2024-12-02 14:31:06 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1638,9 +1638,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 [2024-12-02 14:36:18 [32mINFO [0;39mThread-83] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 14:36:18 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:36:18 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 14:36:18 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:36:18 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 14:36:18 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1664,7 +1664,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 14:36:18 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 14:36:18 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:36:18 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.413 seconds (process running for 7944.611)
 [2024-12-02 14:36:18 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1672,9 +1672,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 [2024-12-02 14:42:55 [32mINFO [0;39mThread-87] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 14:42:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:42:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 14:42:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:42:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 14:42:55 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1698,7 +1698,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 14:42:55 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 14:42:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:42:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.327 seconds (process running for 8341.388)
 [2024-12-02 14:42:55 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1706,9 +1706,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
 [2024-12-02 14:56:04 [32mINFO [0;39mThread-91] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 14:56:04 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:56:04 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 14:56:04 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:56:04 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 14:56:04 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1732,7 +1732,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 14:56:04 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 14:56:04 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:56:04 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.315 seconds (process running for 9130.672)
 [2024-12-02 14:56:04 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1740,9 +1740,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
 [2024-12-02 14:59:11 [32mINFO [0;39mThread-95] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 14:59:11 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:59:11 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 14:59:11 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:59:11 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 14:59:12 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1766,7 +1766,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 14:59:12 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 14:59:12 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 14:59:12 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.343 seconds (process running for 9317.844)
 [2024-12-02 14:59:12 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1774,9 +1774,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 5 class path changes (0 additions, 5 deletions, 0 modifications)
 [2024-12-02 15:02:36 [32mINFO [0;39mThread-99] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 15:02:37 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:02:37 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 15:02:37 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:02:37 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 15:02:37 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1800,7 +1800,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 15:02:37 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 15:02:37 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:02:37 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.325 seconds (process running for 9523.076)
 [2024-12-02 15:02:37 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1808,9 +1808,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 5 class path changes (5 additions, 0 deletions, 0 modifications)
 [2024-12-02 15:02:38 [32mINFO [0;39mThread-103] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 15:02:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:02:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 15:02:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:02:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 15:02:39 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1834,7 +1834,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 15:02:39 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 15:02:39 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:02:39 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.286 seconds (process running for 9524.858)
 [2024-12-02 15:02:39 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -1842,9 +1842,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
 [2024-12-02 15:20:47 [32mINFO [0;39mThread-107] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 15:20:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:20:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 15:20:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:20:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 15:20:47 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -1868,7 +1868,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 15:20:47 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 15:20:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:20:47 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.316 seconds (process running for 10613.083)
 [2024-12-02 15:20:47 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -2024,9 +2024,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  HikariPool-4 - Shutdown initiated...
 [2024-12-02 15:29:18 [32mINFO [0;39mThread-111] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-4 - Shutdown completed.
-[2024-12-02 15:29:18 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:29:18 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 15:29:18 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:29:18 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 15:29:18 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -2050,7 +2050,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 15:29:18 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 15:29:18 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:29:18 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.31 seconds (process running for 11124.353)
 [2024-12-02 15:29:18 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -2058,9 +2058,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 6 class path changes (0 additions, 0 deletions, 6 modifications)
 [2024-12-02 15:41:05 [32mINFO [0;39mThread-115] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 15:41:05 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:41:05 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5580 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 15:41:05 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:41:05 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 15:41:05 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -2084,13 +2084,13 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 15:41:05 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 15:41:05 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:41:05 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.316 seconds (process running for 11831.66)
 [2024-12-02 15:41:05 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
-[2024-12-02 15:50:05 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:50:05 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 7404 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 15:50:05 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:50:05 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 15:50:05 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -2118,15 +2118,15 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 15:50:06 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 15:50:06 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:50:06 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.659 seconds (process running for 2.009)
 [2024-12-02 15:52:57 [32mINFO [0;39mFile Watcher] [[36m[org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener][0;39m
  Restarting due to 27 class path changes (0 additions, 0 deletions, 27 modifications)
 [2024-12-02 15:52:57 [32mINFO [0;39mThread-5] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 15:52:57 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:52:57 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 7404 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 15:52:57 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:52:57 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 15:52:57 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -2150,7 +2150,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 15:52:57 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 15:52:57 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 15:52:57 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.373 seconds (process running for 173.289)
 [2024-12-02 15:52:57 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -2158,9 +2158,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 35 class path changes (0 additions, 35 deletions, 0 modifications)
 [2024-12-02 16:01:09 [32mINFO [0;39mThread-7] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 16:01:09 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:01:09 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 7404 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 16:01:09 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:01:09 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 16:01:09 [33mWARN [0;39mrestartedMain] [[36m[org.mybatis.spring.mapper.ClassPathMapperScanner][0;39m
  No MyBatis mapper was found in '[com.green.greengram]' package. Please check your configuration.
@@ -2184,7 +2184,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 16:01:09 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 16:01:09 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:01:09 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.288 seconds (process running for 665.559)
 [2024-12-02 16:01:09 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -2192,9 +2192,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 35 class path changes (35 additions, 0 deletions, 0 modifications)
 [2024-12-02 16:08:00 [32mINFO [0;39mThread-11] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 16:08:00 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:08:00 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 7404 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 16:08:00 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:08:00 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 16:08:00 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -2218,7 +2218,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 16:08:00 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 16:08:00 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:08:00 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.312 seconds (process running for 1076.081)
 [2024-12-02 16:08:00 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -2226,9 +2226,9 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Restarting due to 9 class path changes (0 additions, 0 deletions, 9 modifications)
 [2024-12-02 16:19:55 [32mINFO [0;39mThread-15] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 16:19:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:19:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 7404 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 16:19:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:19:55 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 16:19:56 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -2252,13 +2252,13 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 16:19:56 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 16:19:56 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:19:56 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.346 seconds (process running for 1791.843)
 [2024-12-02 16:19:56 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
-[2024-12-02 16:25:32 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:25:32 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 12148 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 16:25:32 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:25:32 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 16:25:32 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -2286,7 +2286,7 @@ java.lang.NullPointerException: Cannot invoke "com.green.greengram.feed.comment.
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 16:25:33 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 16:25:33 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:25:33 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.644 seconds (process running for 1.998)
 [2024-12-02 16:26:03 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -6926,9 +6926,9 @@ java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol
  HikariPool-1 - Shutdown initiated...
 [2024-12-02 16:53:04 [32mINFO [0;39mSpringApplicationShutdownHook] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-1 - Shutdown completed.
-[2024-12-02 16:54:26 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:54:26 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 5084 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 16:54:26 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:54:26 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 16:54:26 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -6954,7 +6954,7 @@ java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 16:54:27 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 16:54:27 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:54:27 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.689 seconds (process running for 2.028)
 [2024-12-02 16:54:35 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -6962,9 +6962,9 @@ java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol
  Initializing Servlet 'dispatcherServlet'
 [2024-12-02 16:54:35 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.springframework.web.servlet.DispatcherServlet][0;39m
  Completed initialization in 1 ms
-[2024-12-02 16:54:44 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:54:44 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 9880 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 16:54:44 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:54:44 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 16:54:44 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -6990,11 +6990,11 @@ java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 16:54:46 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 16:54:46 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:54:46 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.636 seconds (process running for 2.017)
-[2024-12-02 16:55:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:55:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 280 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 16:55:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:55:38 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 16:55:38 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -7022,7 +7022,7 @@ java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 16:55:39 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 16:55:39 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 16:55:39 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 1.735 seconds (process running for 2.098)
 [2024-12-02 16:55:42 [32mINFO [0;39mhttp-nio-8080-exec-1] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
  Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -10294,9 +10294,9 @@ java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol
  HikariPool-1 - Shutdown initiated...
 [2024-12-02 17:49:15 [32mINFO [0;39mThread-5] [[36m[com.zaxxer.hikari.HikariDataSource][0;39m
  HikariPool-1 - Shutdown completed.
-[2024-12-02 17:49:15 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 17:49:15 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 280 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 17:49:15 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 17:49:15 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 17:49:15 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -10320,7 +10320,7 @@ java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 17:49:15 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 17:49:15 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 17:49:15 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.389 seconds (process running for 3218.147)
 [2024-12-02 17:49:15 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged
@@ -10328,9 +10328,9 @@ java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol
  Restarting due to 5 class path changes (5 additions, 0 deletions, 0 modifications)
 [2024-12-02 17:49:17 [32mINFO [0;39mThread-7] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
  Stopping ProtocolHandler ["http-nio-8080"]
-[2024-12-02 17:49:17 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 17:49:17 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Starting GreenGramVerApplication using Java 17.0.12 with PID 280 (D:\GSY\GreenGramVer\build\classes\java\main started by Administrator in D:\GSY\GreenGramVer)
-[2024-12-02 17:49:17 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 17:49:17 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
 [2024-12-02 17:49:17 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat initialized with port 8080 (http)
@@ -10354,7 +10354,7 @@ java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol
  Starting ProtocolHandler ["http-nio-8080"]
 [2024-12-02 17:49:17 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
  Tomcat started on port 8080 (http) with context path '/'
-[2024-12-02 17:49:17 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramVer3Application][0;39m
+[2024-12-02 17:49:17 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  Started GreenGramVerApplication in 0.324 seconds (process running for 3219.961)
 [2024-12-02 17:49:17 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener][0;39m
  Condition evaluation unchanged

@@ -4,6 +4,8 @@ import com.green.greengram.common.model.ResultResponse;
 import com.green.greengram.user.model.*;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springdoc.core.annotations.ParameterObject;
@@ -27,9 +29,9 @@ public class UserController {
 
     @PostMapping("sign-in")
     @Operation(summary = "로그인")
-    public ResultResponse<UserSignInRes> postSignIn(@RequestBody UserSignInReq p) {
-        UserSignInRes result = service.postSignIn(p);
-        return ResultResponse.<UserSignInRes>builder().resultMsg(result.getMessage()).resultData(result).build();
+    public ResultResponse<UserSignInRes> postSignIn(@RequestBody UserSignInReq p, HttpServletResponse response) {
+        UserSignInRes result = service.postSignIn(p, response);
+        return ResultResponse.<UserSignInRes>builder().resultMsg("로그인 성공").resultData(result).build();
     }
 
     @GetMapping
@@ -40,6 +42,16 @@ public class UserController {
         return ResultResponse.<UserInfoGetRes>builder()
                              .resultMsg("유저 프로필 정보")
                              .resultData(result)
+                             .build();
+    }
+
+    @GetMapping("access-token")
+    @Operation(summary = "accessToken 재발행")
+    public ResultResponse<String> getAccessToken(HttpServletRequest req) {
+        String accessToken = service.getAccessToken(req);
+        return ResultResponse.<String>builder()
+                             .resultMsg("Access Token 재발행")
+                             .resultData(accessToken)
                              .build();
     }
 

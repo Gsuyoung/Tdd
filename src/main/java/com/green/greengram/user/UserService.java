@@ -1,15 +1,21 @@
 package com.green.greengram.user;
 
+import com.green.greengram.CookieUtils;
 import com.green.greengram.common.MyFileUtils;
+import com.green.greengram.config.jwt.*;
 import com.green.greengram.user.model.*;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.mindrot.jbcrypt.BCrypt;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
-import java.util.List;
+import java.time.Duration;
+import java.util.ArrayList;
 
 @Slf4j
 @Service
@@ -17,10 +23,14 @@ import java.util.List;
 public class UserService {
     private final UserMapper mapper;
     private final MyFileUtils myFileUtils;
+    private final PasswordEncoder passwordEncoder; //WebSecurityConfig에서 만든 값이 이쪽으로 들어온다.
+    private final TokenProvider tokenProvider;
+    private final CookieUtils cookieUtils;
 
     public int postSignUp(MultipartFile pic, UserSignUpReq p) {
         String savedPicName = (pic != null) ? myFileUtils.makeRandomFileName() : null;
-        String hashedPassword = BCrypt.hashpw(p.getUpw(), BCrypt.gensalt());
+        //String hashedPassword = BCrypt.hashpw(p.getUpw(), BCrypt.gensalt());
+        String hashedPassword = passwordEncoder.encode(p.getUpw());
         p.setUpw(hashedPassword);
         p.setPic(savedPicName);
         int result = mapper.insUser(p);
@@ -42,24 +52,46 @@ public class UserService {
         return result;
     }
 
-    public UserSignInRes postSignIn(UserSignInReq p) {
+    public UserSignInRes postSignIn(UserSignInReq p, HttpServletResponse response) {
         UserSignInRes res = mapper.selUserByUid(p.getUid());
         if(res == null) {
             res = new UserSignInRes();
             res.setMessage("아이디를 확인하세요.");
             return res;
-        }
-        if (!BCrypt.checkpw(p.getUpw(), res.getUpw())) {
+        } else if(!passwordEncoder.matches(p.getUpw(), res.getUpw())) {
+        //else if (!BCrypt.checkpw(p.getUpw(), res.getUpw())) {
             res = new UserSignInRes();
             res.setMessage("비밀번호를 확인하세요");
             return res;
         }
+
+        JwtUser jwtUser = new JwtUser();
+        jwtUser.setSignedUserId(res.getUserId());
+        jwtUser.setRoles(new ArrayList<>(2));
+        jwtUser.getRoles().add("ROLE_USER");
+        jwtUser.getRoles().add("ROLE_ADMIN");
+
+        String accessToken = tokenProvider.generateToken(jwtUser, Duration.ofMinutes(20));
+        String refreshToken = tokenProvider.generateToken(jwtUser, Duration.ofDays(15));
+
+        //refreshToken을 쿠키에 담는다.
+        int maxAge = 1_296_000; //15*24*60*60, 15일의 초(second)값
+        cookieUtils.setCookie(response,"refreshToken", refreshToken, maxAge);
+
         res.setMessage("로그인 완료");
+        res.setAccessToken(accessToken);
         return res;
     }
 
     public UserInfoGetRes getUserInfo(UserInfoGetReq p) {
         return mapper.selUserInfo(p);
+    }
+
+    public String getAccessToken(HttpServletRequest req) {
+        Cookie cookie = cookieUtils.getCookie(req, "refreshToken");
+        String refreshToken = cookie.getValue();
+        log.info("refreshToken: {}", refreshToken);
+        return refreshToken;
     }
 
     public String patchUserPic(UserPicPatchReq p) {

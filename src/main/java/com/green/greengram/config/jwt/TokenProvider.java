@@ -9,16 +9,12 @@ import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 import javax.crypto.SecretKey;
 import java.time.Duration;
-import java.util.Calendar;
-import java.util.Collections;
 import java.util.Date;
-import java.util.Set;
 
 //DI - 외부에서 직접 주소값을 넣어주는 것.
 @Service
@@ -36,8 +32,8 @@ public class TokenProvider { //springcontainer가 직접 객체생성. 빈등록
     //JWT 토큰 생성
     //JwtUser Jwt 토큰을 만들때 사용. duration 만료시간을 설정
     public String generateToken(JwtUser jwtUser, Duration expiredAt) {
-        Date now = new Date();
-        return makeToken(jwtUser, new Date(now.getTime() + expiredAt.toMillis()));
+        Date now = new Date(); //기본 생성자
+        return makeToken(jwtUser, new Date(now.getTime() + expiredAt.toMillis())); // 오버라이딩된 생성자
     }
 
     private String makeToken(JwtUser jwtUser, Date expiry) {
@@ -47,7 +43,7 @@ public class TokenProvider { //springcontainer가 직접 객체생성. 빈등록
                 .and()
                 .issuer(jwtProperties.getIssuer()) //-- 내용
                 .issuedAt(new Date())
-                .expiration(expiry)
+                .expiration(expiry) //만료시간
                 .claim("signedUser", makeClaimByUserToString(jwtUser))
                 .signWith(secretKey) //-- 서명
                 .compact(); //return 타입은 String. private String으로 선언하였고 그값을 리턴할 수 있으므로
@@ -74,6 +70,7 @@ public class TokenProvider { //springcontainer가 직접 객체생성. 빈등록
         }
     }
 
+    //Spring Security에서 인증 처리를 해주어야 한다. 그때 Authentication 객체가 필요.
     //상속받고 있으므로 타입이 다르더라도 객체화할 수있다. (부모(Authentication)는 자식객체값을 담을 수 있다.)
     public Authentication getAuthentication(String token) {
         UserDetails userDetails = getUserDetailsFromToken(token);

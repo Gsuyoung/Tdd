@@ -3,6 +3,7 @@ package com.green.greengram.feed;
 import com.green.greengram.feed.model.*;
 import com.green.greengram.common.model.ResultResponse;
 import io.swagger.v3.oas.annotations.Operation;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springdoc.core.annotations.ParameterObject;
@@ -19,19 +20,31 @@ public class FeedController {
 
     @PostMapping
     @Operation(summary = "피드 등록", description = "필수: 사진리스트 || 옵션: 위치, 내용")
-    public ResultResponse<FeedPostRes> postFeed(@RequestPart List<MultipartFile> pics, @RequestPart FeedPostReq p) {
+    public ResultResponse<FeedPostRes> postFeed(@RequestPart List<MultipartFile> pics, @Valid @RequestPart FeedPostReq p) {
         FeedPostRes res = service.postFeed(pics,p);
         return ResultResponse.<FeedPostRes>builder().resultMsg("피드 등록 완료").resultData(res).build();
     }
 
     @GetMapping
-    @Operation(summary = "Feed 리스트", description = "loginUserId는 로그인한 사용자의 pk")
-    public ResultResponse<List<FeedGetRes>> getFeedList(@ParameterObject @ModelAttribute FeedGetReq p) {
+    @Operation(summary = "Feed 리스트 - N+1", description = "signed_user_id는 로그인한 사용자의 pk")
+    public ResultResponse<List<FeedGetRes>> getFeedList(@Valid @ParameterObject @ModelAttribute FeedGetReq p) {
         log.info("FeedController > getFeedList > p: {}", p);
-        List<FeedGetRes> list = service.getFeedList3(p);;
+        List<FeedGetRes> list = service.getFeedList(p);
         return ResultResponse.<List<FeedGetRes>>builder()
                 .resultMsg(String.format("%d rows", list.size()))
-                .resultData(list).build();
+                .resultData(list)
+                .build();
+    }
+
+    @GetMapping("ver3")
+    @Operation(summary = "Feed 리스트 - No N+1", description = "signed_user_id는 로그인한 사용자의 pk")
+    public ResultResponse<List<FeedGetRes>> getFeedListVer3(@Valid @ParameterObject @ModelAttribute FeedGetReq p) {
+        log.info("FeedController > getFeedList > p: {}", p);
+        List<FeedGetRes> list = service.getFeedList3(p);
+        return ResultResponse.<List<FeedGetRes>>builder()
+                .resultMsg(String.format("%d rows", list.size()))
+                .resultData(list)
+                .build();
     }
 
     @DeleteMapping

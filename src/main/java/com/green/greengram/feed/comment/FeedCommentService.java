@@ -1,5 +1,6 @@
 package com.green.greengram.feed.comment;
 
+import com.green.greengram.config.security.AuthenticationFacade;
 import com.green.greengram.feed.comment.model.*;
 import com.green.greengram.feed.model.FeedGetRes;
 import lombok.RequiredArgsConstructor;
@@ -14,11 +15,14 @@ import java.util.List;
 @RequiredArgsConstructor
 public class FeedCommentService {
     private final FeedCommentMapper mapper;
+    private final AuthenticationFacade authenticationFacade;
 
     //피드 댓글 더보기를 위해서 사용
     public Long postFeedComment(FeedCommentPostReq p) {
         //int result = mapper.insFeedComment(p);
         //return p.getFeedCommentId();
+
+        p.setUserId(authenticationFacade.getSignedUserId());
 
         mapper.insFeedComment(p);
         Long result = p.getFeedCommentId();
@@ -41,6 +45,7 @@ public class FeedCommentService {
     }
 
     public int delFeedComment(FeedCommentDelReq p) {
+        p.setSignedUserId(authenticationFacade.getSignedUserId());
         return mapper.delFeedComment(p);
     }
 }

@@ -10,7 +10,9 @@ import org.springframework.web.multipart.MultipartFile;
 @Getter
 @ToString
 public class UserPicPatchReq {
+    @JsonIgnore
     private long signedUserId;
+
     private MultipartFile pic;
 
     @JsonIgnore

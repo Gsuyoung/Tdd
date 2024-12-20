@@ -31,7 +31,7 @@ public class UserController {
     @Operation(summary = "로그인")
     public ResultResponse<UserSignInRes> postSignIn(@RequestBody UserSignInReq p, HttpServletResponse response) {
         UserSignInRes result = service.postSignIn(p, response);
-        return ResultResponse.<UserSignInRes>builder().resultMsg("로그인 성공").resultData(result).build();
+        return ResultResponse.<UserSignInRes>builder().resultMsg(result.getMessage()).resultData(result).build();
     }
 
     @GetMapping

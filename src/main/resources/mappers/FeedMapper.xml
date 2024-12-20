@@ -30,7 +30,7 @@
     </select>
 
     <delete id="delFeedLikeAndFeedCommentAndFeedPic">
-        DELETE B, C, D
+        DELETE B, C, D\
         FROM feed A
         LEFT JOIN feed_like B
         ON A.feed_id = B.feed_id

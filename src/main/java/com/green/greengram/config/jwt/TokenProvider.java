@@ -7,8 +7,10 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
+import io.swagger.v3.core.util.Json;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.core.parameters.P;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
@@ -78,16 +80,21 @@ public class TokenProvider { //springcontainer가 직접 객체생성. 빈등록
                 null : new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
     }
 
-    public UserDetails getUserDetailsFromToken(String token) {
+    public JwtUser getJwtUserFromToken(String token) {
         //객체를 문자열로 바꿨고 다시 빼내와서 객체화 시키는 과정
         Claims claims = getClaims(token);
-        String json = (String) claims.get("signedUser");
+        String json = (String)claims.get("signedUser");
         JwtUser jwtUser = null;
         try {
             jwtUser = objectMapper.readValue(json, JwtUser.class);
-        } catch (JsonProcessingException e) {
+        }catch (JsonProcessingException e) {
             throw new RuntimeException(e);
         }
+        return jwtUser;
+    }
+
+    public UserDetails getUserDetailsFromToken(String token) {
+        JwtUser jwtUser = getJwtUserFromToken(token);
         MyUserDetails userDetails = new MyUserDetails();
         userDetails.setJwtUser(jwtUser);
         return userDetails;

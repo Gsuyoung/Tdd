@@ -1,6 +1,7 @@
 package com.green.greengram.feed;
 
 import com.green.greengram.common.MyFileUtils;
+import com.green.greengram.config.security.AuthenticationFacade;
 import com.green.greengram.feed.comment.FeedCommentController;
 import com.green.greengram.feed.comment.FeedCommentMapper;
 import com.green.greengram.feed.comment.model.FeedCommentDto;
@@ -27,10 +28,11 @@ public class FeedService {
     private final FeedPicMapper feedPicMapper;
     private final FeedCommentMapper feedCommentMapper;
     private final MyFileUtils myFileUtils;
-    private final FeedCommentController feedCommentController;
+    private final AuthenticationFacade authenticationFacade;
 
     @Transactional //메서드 실행이 완료되면 트랜잭션을 커밋하거나 예외가 발생하면 롤백한다.
     public FeedPostRes postFeed(List<MultipartFile> pics, FeedPostReq p) {
+        p.setWriterUserId(authenticationFacade.getSignedUserId());
         log.info("p:{}", p.toString());
         int result = feedMapper.insFeed(p);
         log.info("p:{}", p.toString());
@@ -70,6 +72,7 @@ public class FeedService {
     }
 
     public List<FeedGetRes> getFeedList(FeedGetReq p) {
+        p.setSignedUserId(authenticationFacade.getSignedUserId());
         //N + 1 이슈 발생 --> 한번 가져온 이후 FOR문으로 크기만큼 도니까 4번돌게 5번 돌게 된다.(처리속도도 느려진다.)
         //만약 Feed가 20개라면 처음 호출할 때 1번 FOR문안에서 사진 20번 댓글 20번해서 select 41번을 하게된다.
         List<FeedGetRes> feedGetResList = feedMapper.selFeedList(p);
@@ -96,14 +99,18 @@ public class FeedService {
 
     //select 2번
     public List<FeedGetRes> getFeedList2(FeedGetReq p) {
-
+        p.setSignedUserId(authenticationFacade.getSignedUserId());
         return null;
     }
 
     //select 3번, 피드 5000개 있음, 페이지당 20개씩 가져온다.
     public List<FeedGetRes> getFeedList3(FeedGetReq p) {
+        p.setSignedUserId(authenticationFacade.getSignedUserId());
         //피드 리스트
         List<FeedGetRes> list = feedMapper.selFeedList(p);
+        if(list.size() == 0) {
+            return list;
+        }
 
         //feed_id를 골라내야 한다.
         //피드와 관련된 사진 리스트
@@ -182,12 +189,14 @@ public class FeedService {
 
     @Transactional
     public int deleteFeed(FeedDeleteReq p) {
+        p.setSignedUserId(authenticationFacade.getSignedUserId());
         //피드 댓글, 좋아요, 사진 삭제
         int affectedRows = feedMapper.delFeedLikeAndFeedCommentAndFeedPic(p);
         log.info("affectedRows:{}", affectedRows);
 
         //피드 삭제
         int affectedRow = feedMapper.delFeed(p);
+        log.info("affectedRow:{}", affectedRow);
 
         //피드 사진 삭제 (폴더 삭제)
         String deletePath = String.format("%s/feed/%d", myFileUtils.getUploadPath(), p.getFeedId());

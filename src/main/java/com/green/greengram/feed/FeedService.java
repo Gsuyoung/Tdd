@@ -1,6 +1,8 @@
 package com.green.greengram.feed;
 
 import com.green.greengram.common.MyFileUtils;
+import com.green.greengram.common.exception.CustomException;
+import com.green.greengram.common.exception.FeedErrorCode;
 import com.green.greengram.config.security.AuthenticationFacade;
 import com.green.greengram.feed.comment.FeedCommentController;
 import com.green.greengram.feed.comment.FeedCommentMapper;
@@ -10,6 +12,7 @@ import com.green.greengram.feed.comment.model.FeedCommentGetRes;
 import com.green.greengram.feed.model.*;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForBigDecimal;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
@@ -29,12 +32,17 @@ public class FeedService {
     private final FeedCommentMapper feedCommentMapper;
     private final MyFileUtils myFileUtils;
     private final AuthenticationFacade authenticationFacade;
+    private final MinValidatorForBigDecimal minValidatorForBigDecimal;
 
     @Transactional //메서드 실행이 완료되면 트랜잭션을 커밋하거나 예외가 발생하면 롤백한다.
+    //자동 커밋 종료
     public FeedPostRes postFeed(List<MultipartFile> pics, FeedPostReq p) {
         p.setWriterUserId(authenticationFacade.getSignedUserId());
         log.info("p:{}", p.toString());
         int result = feedMapper.insFeed(p);
+        if(result == 0) {
+            throw new CustomException(FeedErrorCode.FAIL_TO_REG);
+        }
         log.info("p:{}", p.toString());
 
         // -------------- 파일등록
@@ -56,7 +64,10 @@ public class FeedService {
             try {
                 myFileUtils.transferTo(pic, filePath);
             } catch (IOException e) {
-                e.printStackTrace();
+                //폴더 삭제 처리
+                String delForderPath = String.format("%s/%s", myFileUtils.getUploadPath(), middlePath);
+                myFileUtils.deleteFolder(delForderPath, true);
+                throw new CustomException(FeedErrorCode.FAIL_TO_REG);
             }
         }
         FeedPicDto feedPicDto = new FeedPicDto();

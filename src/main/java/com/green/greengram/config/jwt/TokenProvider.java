@@ -2,6 +2,8 @@ package com.green.greengram.config.jwt;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.green.greengram.common.exception.CustomException;
+import com.green.greengram.common.exception.UserErrorCode;
 import com.green.greengram.config.security.MyUserDetails;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
@@ -62,15 +64,15 @@ public class TokenProvider { //springcontainer가 직접 객체생성. 빈등록
         }
     }
 
-    public boolean validToken(String token) {
+    /* public boolean validToken(String token) {
         try {
             //JWT 복호화 하는 과정
             getClaims(token);
-            return true;
         } catch (Exception e) {
-            return false;
+            throw new CustomException(UserErrorCode.EXPIRED_TOKEN);
         }
-    }
+        return true;
+    } */
 
     //Spring Security에서 인증 처리를 해주어야 한다. 그때 Authentication 객체가 필요.
     //상속받고 있으므로 타입이 다르더라도 객체화할 수있다. (부모(Authentication)는 자식객체값을 담을 수 있다.)

@@ -2,6 +2,8 @@ package com.green.greengram.user;
 
 import com.green.greengram.CookieUtils;
 import com.green.greengram.common.MyFileUtils;
+import com.green.greengram.common.exception.CustomException;
+import com.green.greengram.common.exception.UserErrorCode;
 import com.green.greengram.config.jwt.*;
 import com.green.greengram.config.security.AuthenticationFacade;
 import com.green.greengram.user.model.*;
@@ -57,16 +59,20 @@ public class UserService {
 
     public UserSignInRes postSignIn(UserSignInReq p, HttpServletResponse response) {
         UserSignInRes res = mapper.selUserByUid(p.getUid());
-        if(res == null) {
+        if(res == null || !passwordEncoder.matches(p.getUpw(), res.getUpw())) {
+            throw new CustomException(UserErrorCode.INCORRECT_ID_PW);
+        }
+
+        /* if(res == null) { //아이디 없음
             res = new UserSignInRes();
-            res.setMessage("아이디를 확인하세요.");
+            res.setMessage("아이디를 확인해 주세요.");
             return res;
         } else if(!passwordEncoder.matches(p.getUpw(), res.getUpw())) {
         //else if (!BCrypt.checkpw(p.getUpw(), res.getUpw())) {
             res = new UserSignInRes();
             res.setMessage("비밀번호를 확인하세요");
             return res;
-        }
+        } */
 
         JwtUser jwtUser = new JwtUser();
         jwtUser.setSignedUserId(res.getUserId());
@@ -74,7 +80,7 @@ public class UserService {
         jwtUser.getRoles().add("ROLE_USER");
         jwtUser.getRoles().add("ROLE_ADMIN");
 
-        String accessToken = tokenProvider.generateToken(jwtUser, Duration.ofMinutes(100));
+        String accessToken = tokenProvider.generateToken(jwtUser, Duration.ofSeconds(30));
         String refreshToken = tokenProvider.generateToken(jwtUser, Duration.ofDays(15));
 
         //refreshToken을 쿠키에 담는다.
@@ -96,7 +102,7 @@ public class UserService {
         String refreshToken = cookie.getValue();
         log.info("refreshToken: {}", refreshToken);
 
-        String accessToken = tokenProvider.generateToken(authenticationFacade.getSignedUser(), Duration.ofMinutes(20));
+        String accessToken = tokenProvider.generateToken(authenticationFacade.getSignedUser(), Duration.ofSeconds(30));
 
 
 

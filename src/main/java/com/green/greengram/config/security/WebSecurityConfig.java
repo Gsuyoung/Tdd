@@ -1,6 +1,7 @@
 package com.green.greengram.config.security;
 //Spring Security 세팅
 
+import com.green.greengram.config.jwt.JwtAuthenticationEntryPoint;
 import com.green.greengram.config.jwt.TokenAuthenticationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
@@ -10,6 +11,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
@@ -17,12 +19,13 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @RequiredArgsConstructor
 public class WebSecurityConfig {
     private final TokenAuthenticationFilter tokenAuthenticationFilter;
+    private final JwtAuthenticationEntryPoint jwtAuthenticationEntryPoint;
+
     //스프링 시큐리티 기능 비활성화(스프링 시큐리티가 관여하지 않았으면 하는 부분)
     /* @Bean
     public WebSecurityCustomizer webSecurityCustomizer() {
         return web -> web.ignoring() //web의 타입은 websecurity이고 websecurity에는 ignoring이라는 메소드가 존재한다.
                          .requestMatchers(new AntPathRequestMatcher("/static/**"));
-
     } */
 
     @Bean //@Bean이 붙어있으면 스프링이 메소드 호출을 하고 리턴한 객체의 주소값을 관리한다.(빈등록)
@@ -35,7 +38,9 @@ public class WebSecurityConfig {
                         res.requestMatchers("/api/feed", "/api/feed/**").authenticated() //로그인이 되어 있어야만 사용 가능
                                 .requestMatchers(HttpMethod.GET,"/api/user").authenticated()
                                 .requestMatchers(HttpMethod.PATCH,"/api/user/pic").authenticated()
-                           .anyRequest().permitAll()) //나머지는 모두 허용. 아래에 위치해야한다.
+                           .anyRequest().permitAll() //나머지는 모두 허용. 아래에 위치해야한다.
+                )
+                .exceptionHandling(e -> e.authenticationEntryPoint(jwtAuthenticationEntryPoint))
                 .addFilterBefore(tokenAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)
                 .build();
     }

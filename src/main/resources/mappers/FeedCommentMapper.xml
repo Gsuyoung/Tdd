@@ -24,7 +24,6 @@
         LIMIT #{startIdx}, #{size}
     </select>
 
-
     <delete id = "delFeedComment">
         DELETE FROM feed_comment
         WHERE feed_comment_id = #{feedCommentId}

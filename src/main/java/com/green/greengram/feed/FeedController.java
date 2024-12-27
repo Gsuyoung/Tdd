@@ -47,6 +47,16 @@ public class FeedController {
                 .build();
     }
 
+    @GetMapping("ver4")
+    @Operation(summary = "Feed 리스트 - No N+1 - using Mybatis", description = "signed_user_id는 로그인한 사용자의 pk")
+    public ResultResponse<List<FeedGetRes>> getFeedList2(@Valid @ParameterObject @ModelAttribute FeedGetReq p) {
+        List<FeedGetRes> list = service.getFeedList2(p);
+        return ResultResponse.<List<FeedGetRes>>builder()
+                .resultMsg(String.format("%d rows", list.size()))
+                .resultData(list)
+                .build();
+    }
+
     @DeleteMapping
     @Operation(summary = "Feed 삭제", description = "피드의 댓글, 좋아요 모두 삭제 처리")
     public ResultResponse<Integer> deleteFeed(@ParameterObject @ModelAttribute FeedDeleteReq p) {

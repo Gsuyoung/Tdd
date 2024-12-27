@@ -29,7 +29,7 @@ public class WebSecurityConfig {
     } */
 
     @Bean //@Bean이 붙어있으면 스프링이 메소드 호출을 하고 리턴한 객체의 주소값을 관리한다.(빈등록)
-    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+    public SecurityFilterChain  securityFilterChain(HttpSecurity http) throws Exception {
         return http.sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS)) //시큐리티가 세션을 사용하지 않는다.
                 .httpBasic(h -> h.disable()) //SSR(Server Side Rendering)이 아니다. 화면을 만들지 않을것이기 때문에 비활성화 시킨다. 시큐리티 로그인창 나타나지 않을 것이다.
                 .formLogin(form -> form.disable()) //마찬가지로 SSR이 아니다. 폼로그인 기능 자체를 비활성화

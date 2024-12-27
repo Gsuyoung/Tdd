@@ -4,7 +4,6 @@ import com.green.greengram.common.MyFileUtils;
 import com.green.greengram.common.exception.CustomException;
 import com.green.greengram.common.exception.FeedErrorCode;
 import com.green.greengram.config.security.AuthenticationFacade;
-import com.green.greengram.feed.comment.FeedCommentController;
 import com.green.greengram.feed.comment.FeedCommentMapper;
 import com.green.greengram.feed.comment.model.FeedCommentDto;
 import com.green.greengram.feed.comment.model.FeedCommentGetReq;
@@ -32,7 +31,6 @@ public class FeedService {
     private final FeedCommentMapper feedCommentMapper;
     private final MyFileUtils myFileUtils;
     private final AuthenticationFacade authenticationFacade;
-    private final MinValidatorForBigDecimal minValidatorForBigDecimal;
 
     @Transactional //메서드 실행이 완료되면 트랜잭션을 커밋하거나 예외가 발생하면 롤백한다.
     //자동 커밋 종료
@@ -43,7 +41,6 @@ public class FeedService {
         if(result == 0) {
             throw new CustomException(FeedErrorCode.FAIL_TO_REG);
         }
-        log.info("p:{}", p.toString());
 
         // -------------- 파일등록
         long feedId = p.getFeedId();
@@ -110,8 +107,58 @@ public class FeedService {
 
     //select 2번
     public List<FeedGetRes> getFeedList2(FeedGetReq p) {
-        p.setSignedUserId(authenticationFacade.getSignedUserId());
-        return null;
+        List<FeedGetRes> list = new ArrayList<>(p.getSize());
+
+        //SELECT (1) : feed + feed_pic
+        List<FeedAndPicDto> feedAndPicDtoList = feedMapper.selFeedWithPicList(p);
+        FeedGetRes beforeFeedGetRes = new FeedGetRes();
+        for(FeedAndPicDto feedAndPicDto : feedAndPicDtoList) {
+            if(beforeFeedGetRes.getFeedId() != feedAndPicDto.getFeedId()) {
+            beforeFeedGetRes = new FeedGetRes();
+            beforeFeedGetRes.setPics(new ArrayList<>(3));
+            list.add(beforeFeedGetRes);
+            beforeFeedGetRes.setFeedId(feedAndPicDto.getFeedId());
+            beforeFeedGetRes.setContents(feedAndPicDto.getContents());
+            beforeFeedGetRes.setLocation(feedAndPicDto.getLocation());
+            beforeFeedGetRes.setCreatedAt(feedAndPicDto.getCreatedAt());
+            beforeFeedGetRes.setWriterUserId(feedAndPicDto.getWriterUserId());
+            beforeFeedGetRes.setWriterNm(feedAndPicDto.getWriterNm());
+            beforeFeedGetRes.setWriterPic(feedAndPicDto.getWriterPic());
+            beforeFeedGetRes.setIsLIKE(feedAndPicDto.getIsLIKE());
+            }
+            beforeFeedGetRes.getPics().add(feedAndPicDto.getPic());
+        }
+
+        //SELECT (2) : feed_comment
+        List<Long> feedIds = new ArrayList<>(list.size());
+        for(FeedGetRes item : list) {
+            feedIds.add(item.getFeedId());
+        }
+        List<FeedCommentDto> feedCommentList = feedCommentMapper.selFeedCommentListByFeedIdsLimit4(feedIds);
+        Map<Long, FeedCommentGetRes> commentHashMap = new HashMap<>();
+        for(FeedCommentDto item : feedCommentList) {
+            long feedId = item.getFeedId();
+            if(!commentHashMap.containsKey(feedId)) {
+                FeedCommentGetRes feedCommentGetRes = new FeedCommentGetRes();
+                feedCommentGetRes.setCommentList(new ArrayList<>(4));
+                commentHashMap.put(feedId, feedCommentGetRes);
+            }
+            FeedCommentGetRes feedCommentGetRes = commentHashMap.get(feedId);
+            feedCommentGetRes.getCommentList().add(item);
+        }
+        for(FeedGetRes res : list) {
+            FeedCommentGetRes feedCommentGetRes = commentHashMap.get(res.getFeedId());
+
+            if(feedCommentGetRes == null) {
+                feedCommentGetRes = new FeedCommentGetRes();
+                feedCommentGetRes.setCommentList(new ArrayList<>());
+            } else if (feedCommentGetRes.getCommentList().size() == 4) {
+                feedCommentGetRes.setMoreComment(true);
+                feedCommentGetRes.getCommentList().remove(feedCommentGetRes.getCommentList().size() - 1);
+            }
+            res.setComment(feedCommentGetRes);
+        }
+        return list;
     }
 
     //select 3번, 피드 5000개 있음, 페이지당 20개씩 가져온다.
@@ -124,7 +171,6 @@ public class FeedService {
         }
 
         //feed_id를 골라내야 한다.
-        //피드와 관련된 사진 리스트
         //List<Long> feedIds = list.stream().map(FeedGetRes::getFeedId).collect(Collectors.toList());
         //List<Long> feedId2 = list.stream().map(item -> ((FeedGetRes)item).getFeedId()).toList();
         //List<Long> feedId3 = list.stream().map(item -> {return ((FeedGetRes)item).getFeedId();}).toList();
@@ -149,6 +195,8 @@ public class FeedService {
 //                }
 //            }
 //        }
+
+        //피드와 관련된 사진 리스트
         List<FeedPicSel> feedPicList = feedPicMapper.selFeedPicListByFeedIds(feedIds);
         log.info("feedPicList: {}", feedPicList);
 
@@ -168,6 +216,8 @@ public class FeedService {
 
 
         //피드와 관련된 댓글 리스트
+
+        //댓글이 있는 경우만 정리
         List<FeedCommentDto> feedCommentList = feedCommentMapper.selFeedCommentListByFeedIdsLimit4(feedIds);
         Map<Long, FeedCommentGetRes> commentHashMap = new HashMap<>();
         for(FeedCommentDto item : feedCommentList) {
@@ -196,6 +246,16 @@ public class FeedService {
         }
         log.info("list: {}", list);
         return list;
+    }
+
+    public List<FeedGetRes> getFeedList4(FeedGetReq p) {
+        List<FeedWithPicCommentDto> dtoList = feedMapper.selFeedWithPicAndCommentLimit4List(p);
+        List<FeedGetRes> resList = new ArrayList<>();
+        for(FeedWithPicCommentDto item : dtoList) {
+            FeedGetRes feedGetRes = new FeedGetRes(item);
+            resList.add(feedGetRes);
+        }
+        return resList;
     }
 
     @Transactional

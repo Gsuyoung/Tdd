@@ -3,12 +3,14 @@ package com.green.greengram.feed.model;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.ToString;
 
 import java.util.List;
 
 @Builder
 @Getter
 @Schema(title = "피드 등록 응답")
+@ToString
 public class FeedPostRes {
     @Schema(title="피드 PK")
     private long feedId;

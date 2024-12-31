@@ -9,6 +9,8 @@ jwt:
   secret-key: studyspringbootadfadfasdfasdfadsfadfadsfasdfweqerqewrdfasdf11111111
 
 mybatis:
+  configuration:
+    map-underscore-to-camel-case: true #_(언더바)를 자동으로 camel_case형으로 변환
   mapper-locations: mappers/**/*.xml
 
 spring:

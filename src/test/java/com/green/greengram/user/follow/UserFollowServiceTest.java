@@ -12,7 +12,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.BDDMockito.given;
 
-//Spring Test Context(컨데이너) 이용하는거 아니다.
+//Spring Test Context(컨테이너)를 이용하는거 아니다.
 @ExtendWith(MockitoExtension.class)
 class UserFollowServiceTest {
     @InjectMocks
@@ -29,26 +29,22 @@ class UserFollowServiceTest {
     static final long fromUserId3 = 3L;
     static final long toUserId4 = 4L;
 
-
-    static final UserFollowReq userFollowReq1_2 = new UserFollowReq(toUserId2);
-    static final UserFollowReq userFollowReq3_4 = new UserFollowReq(toUserId4);
-
    @Test
    @DisplayName("postUserFollow 테스트")
     void postUserFollow() {
        //given
        //authenticationFacade Mock객체의 getSignedUserId()메소드를 호출하면 willReturn값이 리턴이 되게끔 세팅
-       final int EXPECTED_RESULT = 14;
-       final long FROM_USER_ID = fromUserId3;
-       final long TO_USER_ID = toUserId4;
-       given(authenticationFacade.getSignedUserId()).willReturn(FROM_USER_ID);
+       final int EXPECTED_RESULT = 13;
+       final long EXPECTED_FROM_USER_ID = fromUserId3;
+       final long EXPECTED_TO_USER_ID = toUserId4;
+       given(authenticationFacade.getSignedUserId()).willReturn(EXPECTED_FROM_USER_ID);
 
-       UserFollowReq givenParam = new UserFollowReq(TO_USER_ID);
-       givenParam.setFromUserId(FROM_USER_ID);
+       UserFollowReq givenParam = new UserFollowReq(EXPECTED_TO_USER_ID);
+       givenParam.setFromUserId(EXPECTED_FROM_USER_ID);
        given(userFollowMapper.delUserFollow(givenParam)).willReturn(EXPECTED_RESULT);
 
        //when
-       UserFollowReq actualParam = new UserFollowReq(TO_USER_ID);
+       UserFollowReq actualParam = new UserFollowReq(EXPECTED_TO_USER_ID);
        int actualResult = userFollowService.deleteUserFollow(actualParam);
 
        //then

@@ -2,30 +2,37 @@ package com.green.greengram.feed.model;
 
 import com.green.greengram.feed.comment.model.FeedCommentGetRes;
 import io.swagger.v3.oas.annotations.media.Schema;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
-@Setter
 @Getter
-@ToString
+@Setter
 @Schema(title = "피드 정보")
-@NoArgsConstructor //기본생성자를 만들어 준다.
+@ToString
+@NoArgsConstructor
+@EqualsAndHashCode
 public class FeedGetRes {
+    @Schema(title = "피드 PK")
     private long feedId;
-    private long writerUserId;
-    private String writerNm;
-    private String writerPic;
-    private String createdAt;
+    @Schema(title = "피드 내용")
     private String contents;
+    @Schema(title = "피드 위치")
     private String location;
-    private int isLIKE;
+    @Schema(title = "피드 생성일시")
+    private String createdAt;
+    @Schema(title = "작성자 유저 PK")
+    private long writerUserId;
+    @Schema(title = "작성자 유저 이름")
+    private String writerNm;
+    @Schema(title = "작성자 유저 프로필 사진파일명")
+    private String writerPic;
+    @Schema(title = "좋아요", description = "1: 좋아요, 0: 좋아요 아님")
+    private int isLike;
 
+    @Schema(title = "피드 사진 리스트")
     private List<String> pics;
+    @Schema(title = "피드 댓글")
     private FeedCommentGetRes comment;
 
     public FeedGetRes(FeedWithPicCommentDto dto) {
@@ -36,17 +43,13 @@ public class FeedGetRes {
         this.writerUserId = dto.getWriterUserId();
         this.writerNm = dto.getWriterNm();
         this.writerPic = dto.getWriterPic();
-        this.isLIKE = dto.getIsLike();
+        this.isLike = dto.getIsLike();
         this.pics = dto.getPics();
         this.comment = new FeedCommentGetRes();
-
-        //TODO : 댓글 moreComment, list 컨버트
-        if(comment == null) {
-            comment = new FeedCommentGetRes();
-            comment.setCommentList(new ArrayList<>());
-        } else if (comment.getCommentList().size() == 4) {
-            comment.setMoreComment(true);
-            comment.getCommentList().remove(comment.getCommentList().size() - 1);
+        if(dto.getCommentList().size() == 4) {
+            this.comment.setMoreComment(true);
+            dto.getCommentList().remove(dto.getCommentList().size() - 1);
         }
+        this.comment.setCommentList(dto.getCommentList());
     }
 }

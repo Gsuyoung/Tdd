@@ -1,10 +1,12 @@
 package com.green.greengram.feed.model;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
 @Setter
 @Getter
+@EqualsAndHashCode
 public class FeedAndPicDto {
     private long feedId;
     private String contents;

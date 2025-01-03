@@ -123,7 +123,7 @@ public class FeedService {
             beforeFeedGetRes.setWriterUserId(feedAndPicDto.getWriterUserId());
             beforeFeedGetRes.setWriterNm(feedAndPicDto.getWriterNm());
             beforeFeedGetRes.setWriterPic(feedAndPicDto.getWriterPic());
-            beforeFeedGetRes.setIsLIKE(feedAndPicDto.getIsLIKE());
+            beforeFeedGetRes.setIsLike(feedAndPicDto.getIsLIKE());
             }
             beforeFeedGetRes.getPics().add(feedAndPicDto.getPic());
         }

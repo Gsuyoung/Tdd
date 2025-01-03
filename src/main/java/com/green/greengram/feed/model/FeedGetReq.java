@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.green.greengram.common.model.Paging;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Positive;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.BindParam;
 @Slf4j
 @Getter
 @ToString(callSuper = true) //부모가 가지고 있는 값도 찍힐수있도록 하기위함 --> lombok기능
+@EqualsAndHashCode
 public class FeedGetReq extends Paging {
     @JsonIgnore
     private long signedUserId; //Schema name을 설정하지않으면 swagger상 <-- key 값이된다.

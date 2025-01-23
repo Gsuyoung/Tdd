@@ -1,168 +1,336 @@
-[2024-12-31 09:48:53 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+[2025-01-23 09:51:42 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
  HV000001: Hibernate Validator 8.0.1.Final
-[2024-12-31 09:48:53 INFO Test worker] [[com.green.greengram.feed.FeedPicMapperTest]
- Starting FeedPicMapperTest using Java 17.0.12 with PID 8096 (started by Administrator in D:\GSY\GreenGramTdd)
-[2024-12-31 09:48:53 INFO Test worker] [[com.green.greengram.feed.FeedPicMapperTest]
- The following 1 profile is active: "test"
-[2024-12-31 09:48:54 INFO Test worker] [[com.green.greengram.feed.FeedPicMapperTest]
- Started FeedPicMapperTest in 1.138 seconds (process running for 2.227)
-[2024-12-31 09:48:54 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
- HikariPool-1 - Starting...
-[2024-12-31 09:48:54 INFO Test worker] [[com.zaxxer.hikari.pool.HikariPool]
- HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@52621501
-[2024-12-31 09:48:54 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
- HikariPool-1 - Start completed.
-[2024-12-31 09:48:54 DEBUGTest worker] [[jdbc.sqltiming]
-  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
-1. SELECT * FROM feed_pic WHERE feed_id = 5
- {executed in 15 msec}
-[2024-12-31 09:48:54 INFO Test worker] [[jdbc.resultsettable]
- 
-|--------|----|-----------|
-|feed_id |pic |created_at |
-|--------|----|-----------|
-|--------|----|-----------|
-
-[2024-12-31 09:48:54 DEBUGTest worker] [[jdbc.sqltiming]
-  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
-1. INSERT INTO feed_pic
-        (feed_id, pic)
-        VALUES
-         (  
-            5, 'a.jpg'
-         ),( 
-            5, 'b.jpg'
-         ),( 
-            5, 'c.jpg'
-         )
- {executed in 0 msec}
-[2024-12-31 09:48:54 DEBUGTest worker] [[jdbc.sqltiming]
-  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
-1. SELECT * FROM feed_pic WHERE feed_id = 5
- {executed in 0 msec}
-[2024-12-31 09:48:54 INFO Test worker] [[jdbc.resultsettable]
- 
-|--------|------|--------------------|
-|feed_id |pic   |created_at          |
-|--------|------|--------------------|
-|5       |a.jpg |2024-12-31 09:48:54 |
-|5       |b.jpg |2024-12-31 09:48:54 |
-|5       |c.jpg |2024-12-31 09:48:54 |
-|--------|------|--------------------|
-
-[2024-12-31 09:48:55 INFO SpringApplicationShutdownHook] [[com.zaxxer.hikari.HikariDataSource]
- HikariPool-1 - Shutdown initiated...
-[2024-12-31 09:48:55 INFO SpringApplicationShutdownHook] [[com.zaxxer.hikari.HikariDataSource]
- HikariPool-1 - Shutdown completed.
-[2024-12-31 09:50:21 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+[2025-01-23 09:51:42 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeControllerTest]
+ Starting FeedLikeControllerTest using Java 17.0.12 with PID 12124 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 09:51:42 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 09:51:43 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 09:51:44 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 09:51:44 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 09:51:44 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 09:51:44 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeControllerTest]
+ Started FeedLikeControllerTest in 2.022 seconds (process running for 3.156)
+[2025-01-23 09:51:44 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeController]
+ FeedLikeController > feedLikeToggle > p: com.green.greengram.feed.like.model.FeedLikeReq@e0f
+[2025-01-23 09:51:44 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeController]
+ FeedLikeController > feedLikeToggle > p: com.green.greengram.feed.like.model.FeedLikeReq@e0f
+[2025-01-23 10:11:34 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
  HV000001: Hibernate Validator 8.0.1.Final
-[2024-12-31 09:50:21 INFO Test worker] [[com.green.greengram.feed.FeedPicMapperTest]
- Starting FeedPicMapperTest using Java 17.0.12 with PID 2892 (started by Administrator in D:\GSY\GreenGramTdd)
-[2024-12-31 09:50:21 INFO Test worker] [[com.green.greengram.feed.FeedPicMapperTest]
- The following 1 profile is active: "test"
-[2024-12-31 09:50:21 INFO Test worker] [[com.green.greengram.feed.FeedPicMapperTest]
- Started FeedPicMapperTest in 0.999 seconds (process running for 1.953)
-[2024-12-31 09:50:21 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
- HikariPool-1 - Starting...
-[2024-12-31 09:50:22 INFO Test worker] [[com.zaxxer.hikari.pool.HikariPool]
- HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@164d01ba
-[2024-12-31 09:50:22 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
- HikariPool-1 - Start completed.
-[2024-12-31 09:50:22 DEBUGTest worker] [[jdbc.sqltiming]
-  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
-1. SELECT * FROM feed_pic WHERE feed_id = 5
- {executed in 0 msec}
-[2024-12-31 09:50:22 INFO Test worker] [[jdbc.resultsettable]
- 
-|--------|----|-----------|
-|feed_id |pic |created_at |
-|--------|----|-----------|
-|--------|----|-----------|
-
-[2024-12-31 09:50:22 DEBUGTest worker] [[jdbc.sqltiming]
-  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
-1. INSERT INTO feed_pic
-        (feed_id, pic)
-        VALUES
-         (  
-            5, 'a.jpg'
-         ),( 
-            5, 'b.jpg'
-         ),( 
-            5, 'c.jpg'
-         )
- {executed in 0 msec}
-[2024-12-31 09:50:22 DEBUGTest worker] [[jdbc.sqltiming]
-  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
-1. SELECT * FROM feed_pic WHERE feed_id = 5
- {executed in 0 msec}
-[2024-12-31 09:50:22 INFO Test worker] [[jdbc.resultsettable]
- 
-|--------|------|--------------------|
-|feed_id |pic   |created_at          |
-|--------|------|--------------------|
-|5       |a.jpg |2024-12-31 09:50:22 |
-|5       |b.jpg |2024-12-31 09:50:22 |
-|5       |c.jpg |2024-12-31 09:50:22 |
-|--------|------|--------------------|
-
-[2024-12-31 09:50:22 INFO SpringApplicationShutdownHook] [[com.zaxxer.hikari.HikariDataSource]
- HikariPool-1 - Shutdown initiated...
-[2024-12-31 09:50:22 INFO SpringApplicationShutdownHook] [[com.zaxxer.hikari.HikariDataSource]
- HikariPool-1 - Shutdown completed.
-[2024-12-31 10:39:14 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+[2025-01-23 10:11:34 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 10776 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 10:11:34 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 10:11:36 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 10:11:36 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 10:11:36 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 10:11:36 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 10:11:36 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.844 seconds (process running for 2.793)
+[2025-01-23 11:53:49 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
  HV000001: Hibernate Validator 8.0.1.Final
-[2024-12-31 10:39:14 INFO Test worker] [[com.green.greengram.feed.FeedPicMapperTest]
- Starting FeedPicMapperTest using Java 17.0.12 with PID 1488 (started by Administrator in D:\GSY\GreenGramTdd)
-[2024-12-31 10:39:14 INFO Test worker] [[com.green.greengram.feed.FeedPicMapperTest]
- The following 1 profile is active: "test"
-[2024-12-31 10:39:14 INFO Test worker] [[com.green.greengram.feed.FeedPicMapperTest]
- Started FeedPicMapperTest in 1.009 seconds (process running for 1.911)
-[2024-12-31 10:39:14 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
- HikariPool-1 - Starting...
-[2024-12-31 10:39:14 INFO Test worker] [[com.zaxxer.hikari.pool.HikariPool]
- HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@52621501
-[2024-12-31 10:39:14 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
- HikariPool-1 - Start completed.
-[2024-12-31 10:39:15 DEBUGTest worker] [[jdbc.sqltiming]
-  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
-1. SELECT * FROM feed_pic WHERE feed_id = 5
- {executed in 0 msec}
-[2024-12-31 10:39:15 INFO Test worker] [[jdbc.resultsettable]
- 
-|--------|----|-----------|
-|feed_id |pic |created_at |
-|--------|----|-----------|
-|--------|----|-----------|
-
-[2024-12-31 10:39:15 DEBUGTest worker] [[jdbc.sqltiming]
-  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
-1. INSERT INTO feed_pic
-        (feed_id, pic)
-        VALUES
-         (  
-            5, 'a.jpg'
-         ),( 
-            5, 'b.jpg'
-         ),( 
-            5, 'c.jpg'
-         )
- {executed in 0 msec}
-[2024-12-31 10:39:15 DEBUGTest worker] [[jdbc.sqltiming]
-  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
-1. SELECT * FROM feed_pic WHERE feed_id = 5
- {executed in 1 msec}
-[2024-12-31 10:39:15 INFO Test worker] [[jdbc.resultsettable]
- 
-|--------|------|--------------------|
-|feed_id |pic   |created_at          |
-|--------|------|--------------------|
-|5       |a.jpg |2024-12-31 10:39:15 |
-|5       |b.jpg |2024-12-31 10:39:15 |
-|5       |c.jpg |2024-12-31 10:39:15 |
-|--------|------|--------------------|
-
-[2024-12-31 10:39:15 INFO SpringApplicationShutdownHook] [[com.zaxxer.hikari.HikariDataSource]
- HikariPool-1 - Shutdown initiated...
-[2024-12-31 10:39:15 INFO SpringApplicationShutdownHook] [[com.zaxxer.hikari.HikariDataSource]
- HikariPool-1 - Shutdown completed.
+[2025-01-23 11:53:49 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 12888 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 11:53:49 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 11:53:50 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 11:53:50 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 11:53:50 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 11:53:50 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 11:53:50 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.794 seconds (process running for 2.752)
+[2025-01-23 11:53:51 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
+ FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=22)
+[2025-01-23 11:56:11 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-23 11:56:11 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 10304 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 11:56:11 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 11:56:12 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 11:56:12 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 11:56:12 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 11:56:12 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 11:56:12 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.805 seconds (process running for 2.738)
+[2025-01-23 11:56:49 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-23 11:56:49 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 13128 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 11:56:49 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 11:56:50 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 11:56:50 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 11:56:51 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 11:56:51 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 11:56:51 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.804 seconds (process running for 2.748)
+[2025-01-23 11:56:51 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
+ FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
+[2025-01-23 11:57:08 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-23 11:57:08 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 12860 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 11:57:08 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 11:57:09 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 11:57:09 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 11:57:09 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 11:57:09 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 11:57:09 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.784 seconds (process running for 2.772)
+[2025-01-23 11:57:33 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-23 11:57:33 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 6284 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 11:57:33 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 11:57:34 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 11:57:34 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 11:57:34 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 11:57:34 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 2 ms
+[2025-01-23 11:57:34 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.795 seconds (process running for 2.731)
+[2025-01-23 11:57:34 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
+ FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
+[2025-01-23 11:58:22 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-23 11:58:22 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 11412 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 11:58:22 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 11:58:24 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 11:58:24 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 11:58:24 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 11:58:24 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 11:58:24 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.811 seconds (process running for 2.77)
+[2025-01-23 11:58:24 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
+ FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
+[2025-01-23 11:59:31 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-23 11:59:32 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 12884 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 11:59:32 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 11:59:33 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 11:59:33 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 11:59:33 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 11:59:33 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 11:59:33 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.79 seconds (process running for 2.749)
+[2025-01-23 11:59:33 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
+ FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
+[2025-01-23 12:01:10 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-23 12:01:10 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 9300 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 12:01:10 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 12:01:11 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 12:01:11 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 12:01:11 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 12:01:11 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 12:01:11 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.794 seconds (process running for 2.75)
+[2025-01-23 12:02:11 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-23 12:02:11 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 12740 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 12:02:11 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 12:02:12 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 12:02:12 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 12:02:12 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 12:02:12 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 12:02:12 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.83 seconds (process running for 2.784)
+[2025-01-23 12:02:12 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
+ FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
+[2025-01-23 12:02:43 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-23 12:02:43 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 11424 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 12:02:43 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 12:02:44 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 12:02:45 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 12:02:45 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 12:02:45 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 12:02:45 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.792 seconds (process running for 2.72)
+[2025-01-23 12:02:45 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
+ FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
+[2025-01-23 12:03:01 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-23 12:03:01 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 10456 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 12:03:01 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 12:03:02 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 12:03:02 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 12:03:02 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 12:03:02 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 12:03:02 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.801 seconds (process running for 2.748)
+[2025-01-23 12:03:02 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
+ FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
+[2025-01-23 12:03:52 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-23 12:03:52 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 11740 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 12:03:52 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 12:03:54 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 12:03:54 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 12:03:54 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 12:03:54 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 12:03:54 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.791 seconds (process running for 2.729)
+[2025-01-23 12:03:54 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
+ FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
+[2025-01-23 12:11:34 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-23 12:11:34 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 11680 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 12:11:34 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 12:11:35 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 12:11:35 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 12:11:35 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 12:11:35 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 2 ms
+[2025-01-23 12:11:35 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.825 seconds (process running for 2.759)
+[2025-01-23 12:11:35 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
+ FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
+[2025-01-23 12:13:04 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-23 12:13:04 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 12860 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 12:13:04 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 12:13:05 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 12:13:05 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 12:13:05 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 12:13:05 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 12:13:05 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.842 seconds (process running for 2.979)
+[2025-01-23 12:13:25 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
+ FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
+[2025-01-23 12:13:47 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-23 12:13:47 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 11312 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 12:13:47 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 12:13:49 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 12:13:49 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 12:13:49 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 12:13:49 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 12:13:49 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.867 seconds (process running for 2.903)
+[2025-01-23 12:14:05 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
+ FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
+[2025-01-23 12:16:03 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
+ FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
+[2025-01-23 12:16:35 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-23 12:16:36 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 13016 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 12:16:36 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 12:16:37 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 12:16:37 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 12:16:37 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 12:16:37 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 12:16:37 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.842 seconds (process running for 2.881)
+[2025-01-23 12:17:30 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-23 12:17:30 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 13004 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-23 12:17:30 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-23 12:17:31 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-23 12:17:32 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-23 12:17:32 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-23 12:17:32 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-23 12:17:32 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.854 seconds (process running for 2.879)
+[2025-01-23 12:17:33 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
+ FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)

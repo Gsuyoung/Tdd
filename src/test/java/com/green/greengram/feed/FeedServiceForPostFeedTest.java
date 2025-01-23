@@ -20,10 +20,18 @@ import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.*;
 
 class FeedServiceForPostFeedTest extends FeedServiceParentTest {
+
+    /*
+    given - 준비단계
+    when - 실행
+    then - 단언(검증)
+     */
+
     @Test
     @DisplayName("Insert시 영향받은 행이 0일 때, 예외 발생")
     void postFeedInsRows0ThrowsException() {
-        given(authenticationFacade.getSignedUserId()).willReturn(SIGNED_USER_ID);
+        given(authenticationFacade.getSignedUserId())
+                .willReturn(SIGNED_USER_ID);
 
         FeedPostReq givenParam = new FeedPostReq();
         givenParam.setWriterUserId(SIGNED_USER_ID);
@@ -33,7 +41,7 @@ class FeedServiceForPostFeedTest extends FeedServiceParentTest {
         FeedPostReq actualParam = new FeedPostReq();
         actualParam.setLocation(LOCATION);
 
-        assertThrows(CustomException.class
+        assertThrows(CustomException.class // 단언(검증)
                 , () -> feedService.postFeed(null, actualParam)
         );
     }

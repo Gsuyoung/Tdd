@@ -2,6 +2,7 @@ package com.green.greengram.feed.like;
 
 import com.green.greengram.common.model.ResultResponse;
 import com.green.greengram.feed.like.model.FeedLikeReq;
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springdoc.core.annotations.ParameterObject;
@@ -11,13 +12,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
-@RestController
+@RestController //json형태로 바꿔주는 애노테이션 --> CSR(Client Side Rendering)
 @RequiredArgsConstructor
 @RequestMapping("feed/like")
 public class FeedLikeController {
     private final FeedLikeService service;
 
    @GetMapping
+   @Operation(summary = "피드 좋아요", description = "토글 처리")
    public ResultResponse<Integer> feedLikeToggle(@ParameterObject @ModelAttribute FeedLikeReq p) {
        log.info("FeedLikeController > feedLikeToggle > p: {}", p);
        int result = service.feedLikeToggle(p);

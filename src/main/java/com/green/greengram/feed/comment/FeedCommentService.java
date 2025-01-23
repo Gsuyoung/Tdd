@@ -16,6 +16,7 @@ import java.util.List;
 public class FeedCommentService {
     private final FeedCommentMapper mapper;
     private final AuthenticationFacade authenticationFacade;
+    public Object get;
 
     //피드 댓글 더보기를 위해서 사용
     public Long postFeedComment(FeedCommentPostReq p) {

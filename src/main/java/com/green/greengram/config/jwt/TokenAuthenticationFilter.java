@@ -14,7 +14,6 @@ import org.springframework.web.filter.OncePerRequestFilter;
 import java.io.IOException;
 
 @Slf4j
-@Component
 @RequiredArgsConstructor
 //extends를 했는데 빨간줄이 뜬다면 1.부모가 기본생성자가 없을 때 2.추상메소드를 가지고 있을 때
 public class TokenAuthenticationFilter extends OncePerRequestFilter { //상속(추상클래스)

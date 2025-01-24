@@ -3,6 +3,7 @@ package com.green.greengram.config.security;
 
 import com.green.greengram.config.jwt.JwtAuthenticationEntryPoint;
 import com.green.greengram.config.jwt.TokenAuthenticationFilter;
+import com.green.greengram.config.jwt.TokenProvider;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,7 +19,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @Configuration //메소드 빈등록이 있어야 의미가 있다. 안에 component가 들어가있다. / 메소드 빈등록이 싱글톤이 된다.
 @RequiredArgsConstructor
 public class WebSecurityConfig {
-    private final TokenAuthenticationFilter tokenAuthenticationFilter;
+    private final TokenProvider tokenProvider;
     private final JwtAuthenticationEntryPoint jwtAuthenticationEntryPoint;
 
     //스프링 시큐리티 기능 비활성화(스프링 시큐리티가 관여하지 않았으면 하는 부분)
@@ -41,7 +42,7 @@ public class WebSecurityConfig {
                            .anyRequest().permitAll() //나머지는 모두 허용. 아래에 위치해야한다.
                 )
                 .exceptionHandling(e -> e.authenticationEntryPoint(jwtAuthenticationEntryPoint))
-                .addFilterBefore(tokenAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)
+                .addFilterBefore(new TokenAuthenticationFilter(tokenProvider), UsernamePasswordAuthenticationFilter.class)
                 .build();
     }
 

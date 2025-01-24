@@ -2,10 +2,7 @@ package com.green.greengram.feed.comment;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.green.greengram.common.model.ResultResponse;
-import com.green.greengram.feed.comment.model.FeedCommentDto;
-import com.green.greengram.feed.comment.model.FeedCommentGetReq;
-import com.green.greengram.feed.comment.model.FeedCommentGetRes;
-import com.green.greengram.feed.comment.model.FeedCommentPostReq;
+import com.green.greengram.feed.comment.model.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,8 +16,7 @@ import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 
 import static org.mockito.Mockito.verify;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 
 import java.util.List;
@@ -63,7 +59,7 @@ class FeedCommentControllerTest {
         String paramJson = objectMapper.writeValueAsString(givenParam);
 
         ResultActions resultActions = mockMvc.perform(post(BASE_URL).contentType(MediaType.APPLICATION_JSON)
-                                                                    .content(paramJson));
+                                                                    .content(paramJson)); //perform -> postman으로 send누르는것과 같다.
 
         ResultResponse res = ResultResponse.<Long>builder()
                 .resultMsg("댓글 등록 완료")
@@ -75,7 +71,7 @@ class FeedCommentControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(content().json(expectedResJson));
 
-        verify(feedCommentService).postFeedComment(givenParam);
+        verify(feedCommentService).postFeedComment(givenParam); //서비스가 postFeedComment 메소드가 들어왔을 때 givenParam값이 나오는지 검증
     }
 
     @Autowired
@@ -132,5 +128,27 @@ class FeedCommentControllerTest {
                 .resultData(result)
                 .build();
         return objectMapper.writeValueAsString(expectedRes);
+    }
+
+    @Test
+    @DisplayName("피드 댓글 삭제")
+    void delFeedComment() throws Exception {
+        final int RESULT = 3;
+        FeedCommentDelReq givenParam = new FeedCommentDelReq(feedCommentId_3);
+        given(feedCommentService.delFeedComment(givenParam)).willReturn(RESULT);
+
+        //feedCommentId를 안 쓴 이유 : feedCommentDelReq에서 constructorproperty에서 정의해줬기 때문에
+        ResultActions resultActions = mockMvc.perform(delete(BASE_URL).queryParam("feed_comment_id", String.valueOf(feedCommentId_3)));
+
+        String expectedResJson = objectMapper.writeValueAsString(ResultResponse.<Integer>builder()
+                .resultMsg("삭제완료")
+                .resultData(RESULT)
+                .build());
+
+        resultActions.andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(content().json(expectedResJson));
+
+        verify(feedCommentService).delFeedComment(givenParam);
     }
 }

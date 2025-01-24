@@ -1,336 +1,1479 @@
-[2025-01-23 09:51:42 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+[2025-01-24 10:00:50 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
  HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 09:51:42 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeControllerTest]
- Starting FeedLikeControllerTest using Java 17.0.12 with PID 12124 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 09:51:42 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeControllerTest]
+[2025-01-24 10:00:50 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Starting FeedCommentControllerTest using Java 17.0.12 with PID 3916 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-24 10:00:50 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
  No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 09:51:43 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+[2025-01-24 10:00:51 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
  Adding welcome page: class path resource [static/index.html]
-[2025-01-23 09:51:44 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+[2025-01-24 10:00:51 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
  Initializing Spring TestDispatcherServlet ''
-[2025-01-23 09:51:44 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+[2025-01-24 10:00:51 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
  Initializing Servlet ''
-[2025-01-23 09:51:44 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+[2025-01-24 10:00:51 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
  Completed initialization in 1 ms
-[2025-01-23 09:51:44 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeControllerTest]
- Started FeedLikeControllerTest in 2.022 seconds (process running for 3.156)
-[2025-01-23 09:51:44 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeController]
+[2025-01-24 10:00:52 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+ Started FeedCommentControllerTest in 1.962 seconds (process running for 3.036)
+[2025-01-24 10:00:52 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
+ FeedCommentController delFeedComment > p: FeedCommentDelReq(feedCommentId=3, signedUserId=0)
+[2025-01-24 10:44:44 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-24 10:44:44 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeControllerTest]
+ Starting FeedLikeControllerTest using Java 17.0.12 with PID 7372 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-24 10:44:44 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeControllerTest]
+ No active profile set, falling back to 1 default profile: "default"
+[2025-01-24 10:44:45 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-24 10:44:45 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-24 10:44:45 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-24 10:44:45 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 1 ms
+[2025-01-24 10:44:45 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeControllerTest]
+ Started FeedLikeControllerTest in 1.754 seconds (process running for 2.699)
+[2025-01-24 10:44:45 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeController]
  FeedLikeController > feedLikeToggle > p: com.green.greengram.feed.like.model.FeedLikeReq@e0f
-[2025-01-23 09:51:44 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeController]
+[2025-01-24 10:44:45 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeController]
  FeedLikeController > feedLikeToggle > p: com.green.greengram.feed.like.model.FeedLikeReq@e0f
-[2025-01-23 10:11:34 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+[2025-01-24 10:56:52 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
  HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 10:11:34 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 10776 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 10:11:34 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
+[2025-01-24 10:56:52 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Starting FeedLikeIntegrationTest using Java 17.0.12 with PID 4384 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-24 10:56:52 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ The following 1 profile is active: "test"
+[2025-01-24 10:56:52 INFO Test worker] [[com.green.greengram.common.MyFileUtils]
+ MyFileUtils - 생성자: D:\GSY\GreenGramTdd\Tdd
+[2025-01-24 10:56:53 WARN Test worker] [[org.springframework.web.context.support.GenericWebApplicationContext]
+ Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfig' defined in file [D:\GSY\GreenGramTdd\build\classes\java\main\com\green\greengram\config\security\WebSecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2025-01-24 10:56:53 INFO Test worker] [[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger]
+ 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2025-01-24 10:56:53 ERRORTest worker] [[org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter]
+ 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.green.greengram.config.security.WebSecurityConfig required a bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' in your configuration.
+
+[2025-01-24 10:56:53 WARN Test worker] [[org.springframework.test.context.TestContextManager]
+ Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.green.greengram.feed.like.FeedLikeIntegrationTest@38a96593]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@485deee1 testClass = com.green.greengram.feed.like.FeedLikeIntegrationTest, locations = [], classes = [com.green.greengram.GreenGramApplication], contextInitializerClasses = [], activeProfiles = ["test"], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@6e57e95e, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@a3cf062e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@1ee4730, [ImportsContextCustomizer@25cde5bb key = [org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@200a26bc, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@34abdee4, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@16afbd92, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@7d373bcf, org.springframework.boot.test.context.SpringBootTestAnnotation@1789ac50], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$before$2(ClassBasedTestDescriptor.java:204)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:203)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:85)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:153)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfig' defined in file [D:\GSY\GreenGramTdd\build\classes\java\main\com\green\greengram\config\security\WebSecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 80 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1889)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	... 104 common frames omitted
+[2025-01-24 11:39:27 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-24 11:39:27 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Starting FeedLikeIntegrationTest using Java 17.0.12 with PID 8252 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-24 11:39:27 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ The following 1 profile is active: "test"
+[2025-01-24 11:39:28 INFO Test worker] [[com.green.greengram.common.MyFileUtils]
+ MyFileUtils - 생성자: D:\GSY\GreenGramTdd\Tdd
+[2025-01-24 11:39:28 WARN Test worker] [[org.springframework.web.context.support.GenericWebApplicationContext]
+ Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfig' defined in file [D:\GSY\GreenGramTdd\build\classes\java\main\com\green\greengram\config\security\WebSecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2025-01-24 11:39:29 INFO Test worker] [[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger]
+ 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2025-01-24 11:39:29 ERRORTest worker] [[org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter]
+ 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.green.greengram.config.security.WebSecurityConfig required a bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' in your configuration.
+
+[2025-01-24 11:39:29 WARN Test worker] [[org.springframework.test.context.TestContextManager]
+ Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.green.greengram.feed.like.FeedLikeIntegrationTest@70f4abc1]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@59fea5f5 testClass = com.green.greengram.feed.like.FeedLikeIntegrationTest, locations = [], classes = [com.green.greengram.GreenGramApplication], contextInitializerClasses = [], activeProfiles = ["test"], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@db44aa2, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@86bc9fbb, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@617fe9e1, [ImportsContextCustomizer@78eafad key = [org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@585811a4, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@76b74e9c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@fff25f1, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@3676ac27, org.springframework.boot.test.context.SpringBootTestAnnotation@97eecbdf], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$before$2(ClassBasedTestDescriptor.java:204)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:203)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:85)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:153)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfig' defined in file [D:\GSY\GreenGramTdd\build\classes\java\main\com\green\greengram\config\security\WebSecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 80 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1889)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	... 104 common frames omitted
+[2025-01-24 11:40:04 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-24 11:40:05 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Starting FeedLikeIntegrationTest using Java 17.0.12 with PID 6288 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-24 11:40:05 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ The following 1 profile is active: "test"
+[2025-01-24 11:40:05 INFO Test worker] [[com.green.greengram.common.MyFileUtils]
+ MyFileUtils - 생성자: D:\GSY\GreenGramTdd\Tdd
+[2025-01-24 11:40:05 WARN Test worker] [[org.springframework.web.context.support.GenericWebApplicationContext]
+ Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfig' defined in file [D:\GSY\GreenGramTdd\build\classes\java\main\com\green\greengram\config\security\WebSecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2025-01-24 11:40:06 INFO Test worker] [[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger]
+ 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2025-01-24 11:40:06 ERRORTest worker] [[org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter]
+ 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.green.greengram.config.security.WebSecurityConfig required a bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' in your configuration.
+
+[2025-01-24 11:40:06 WARN Test worker] [[org.springframework.test.context.TestContextManager]
+ Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.green.greengram.feed.like.FeedLikeIntegrationTest@70f4abc1]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@59fea5f5 testClass = com.green.greengram.feed.like.FeedLikeIntegrationTest, locations = [], classes = [com.green.greengram.GreenGramApplication], contextInitializerClasses = [], activeProfiles = ["test"], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@6db66836, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@ea9a845c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@514eedd8, [ImportsContextCustomizer@78eafad key = [org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3277e499, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5400db36, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@677dbd89, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@5489c777, org.springframework.boot.test.context.SpringBootTestAnnotation@caf9d01], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$before$2(ClassBasedTestDescriptor.java:204)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:203)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:85)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:153)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfig' defined in file [D:\GSY\GreenGramTdd\build\classes\java\main\com\green\greengram\config\security\WebSecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 80 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1889)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	... 104 common frames omitted
+[2025-01-24 11:41:08 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-24 11:41:08 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Starting FeedLikeIntegrationTest using Java 17.0.12 with PID 5732 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-24 11:41:08 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ The following 1 profile is active: "test"
+[2025-01-24 11:41:09 INFO Test worker] [[com.green.greengram.common.MyFileUtils]
+ MyFileUtils - 생성자: D:\GSY\GreenGramTdd\Tdd
+[2025-01-24 11:41:09 WARN Test worker] [[org.springframework.web.context.support.GenericWebApplicationContext]
+ Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfig' defined in file [D:\GSY\GreenGramTdd\build\classes\java\main\com\green\greengram\config\security\WebSecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2025-01-24 11:41:09 INFO Test worker] [[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger]
+ 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2025-01-24 11:41:09 ERRORTest worker] [[org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter]
+ 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.green.greengram.config.security.WebSecurityConfig required a bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' in your configuration.
+
+[2025-01-24 11:41:09 WARN Test worker] [[org.springframework.test.context.TestContextManager]
+ Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.green.greengram.feed.like.FeedLikeIntegrationTest@7e8f23ad]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@38022758 testClass = com.green.greengram.feed.like.FeedLikeIntegrationTest, locations = [], classes = [com.green.greengram.GreenGramApplication], contextInitializerClasses = [], activeProfiles = ["test"], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@6db66836, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@ea9a845c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@514eedd8, [ImportsContextCustomizer@69f9b561 key = [org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3277e499, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5400db36, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@677dbd89, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@5489c777, org.springframework.boot.test.context.SpringBootTestAnnotation@caf9d01], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$before$2(ClassBasedTestDescriptor.java:204)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:203)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:85)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:153)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfig' defined in file [D:\GSY\GreenGramTdd\build\classes\java\main\com\green\greengram\config\security\WebSecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 80 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1889)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	... 104 common frames omitted
+[2025-01-24 11:43:33 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-24 11:43:33 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Starting FeedLikeIntegrationTest using Java 17.0.12 with PID 8024 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-24 11:43:33 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ The following 1 profile is active: "test"
+[2025-01-24 11:43:34 INFO Test worker] [[com.green.greengram.common.MyFileUtils]
+ MyFileUtils - 생성자: D:\GSY\GreenGramTdd\Tdd
+[2025-01-24 11:43:34 WARN Test worker] [[org.springframework.web.context.support.GenericWebApplicationContext]
+ Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfig' defined in file [D:\GSY\GreenGramTdd\build\classes\java\main\com\green\greengram\config\security\WebSecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2025-01-24 11:43:34 INFO Test worker] [[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger]
+ 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2025-01-24 11:43:34 ERRORTest worker] [[org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter]
+ 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.green.greengram.config.security.WebSecurityConfig required a bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' in your configuration.
+
+[2025-01-24 11:43:34 WARN Test worker] [[org.springframework.test.context.TestContextManager]
+ Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.green.greengram.feed.like.FeedLikeIntegrationTest@521ba38f]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@77bb916f testClass = com.green.greengram.feed.like.FeedLikeIntegrationTest, locations = [], classes = [com.green.greengram.GreenGramApplication], contextInitializerClasses = [], activeProfiles = ["test"], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@6db66836, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@ea9a845c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@514eedd8, [ImportsContextCustomizer@5a48d186 key = [org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3277e499, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5400db36, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@677dbd89, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@5489c777, org.springframework.boot.test.context.SpringBootTestAnnotation@caf9d01], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$before$2(ClassBasedTestDescriptor.java:204)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:203)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:85)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:153)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfig' defined in file [D:\GSY\GreenGramTdd\build\classes\java\main\com\green\greengram\config\security\WebSecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 80 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1889)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	... 104 common frames omitted
+[2025-01-24 11:46:48 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-24 11:46:48 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Starting FeedLikeIntegrationTest using Java 17.0.12 with PID 9268 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-24 11:46:48 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ The following 1 profile is active: "test"
+[2025-01-24 11:46:48 INFO Test worker] [[com.green.greengram.common.MyFileUtils]
+ MyFileUtils - 생성자: D:\GSY\GreenGramTdd\Tdd
+[2025-01-24 11:46:49 WARN Test worker] [[org.springframework.web.context.support.GenericWebApplicationContext]
+ Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfig' defined in file [D:\GSY\GreenGramTdd\build\classes\java\main\com\green\greengram\config\security\WebSecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2025-01-24 11:46:49 INFO Test worker] [[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger]
+ 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2025-01-24 11:46:49 ERRORTest worker] [[org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter]
+ 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.green.greengram.config.security.WebSecurityConfig required a bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' in your configuration.
+
+[2025-01-24 11:46:49 WARN Test worker] [[org.springframework.test.context.TestContextManager]
+ Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.green.greengram.feed.like.FeedLikeIntegrationTest@3e753289]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@395281c2 testClass = com.green.greengram.feed.like.FeedLikeIntegrationTest, locations = [], classes = [com.green.greengram.GreenGramApplication], contextInitializerClasses = [], activeProfiles = ["test"], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@db44aa2, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@86bc9fbb, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@617fe9e1, [ImportsContextCustomizer@41d20f06 key = [org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@585811a4, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@76b74e9c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@fff25f1, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@3676ac27, org.springframework.boot.test.context.SpringBootTestAnnotation@97eecbdf], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$before$2(ClassBasedTestDescriptor.java:204)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:203)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:85)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:153)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:124)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:200)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfig' defined in file [D:\GSY\GreenGramTdd\build\classes\java\main\com\green\greengram\config\security\WebSecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 80 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1889)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	... 104 common frames omitted
+[2025-01-24 11:49:16 [32mINFO [0;39mbackground-preinit] [[36m[org.hibernate.validator.internal.util.Version][0;39m
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-24 11:49:16 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
+ Starting GreenGramApplication using Java 17.0.12 with PID 12676 (D:\GSY\GreenGramTdd\build\classes\java\main started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-24 11:49:16 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.GreenGramApplication][0;39m
  No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 10:11:36 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+[2025-01-24 11:49:16 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
+ Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2025-01-24 11:49:16 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor][0;39m
+ For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2025-01-24 11:49:17 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.embedded.tomcat.TomcatWebServer][0;39m
+ Tomcat initialized with port 8080 (http)
+[2025-01-24 11:49:17 [32mINFO [0;39mrestartedMain] [[36m[org.apache.coyote.http11.Http11NioProtocol][0;39m
+ Initializing ProtocolHandler ["http-nio-8080"]
+[2025-01-24 11:49:17 [32mINFO [0;39mrestartedMain] [[36m[org.apache.catalina.core.StandardService][0;39m
+ Starting service [Tomcat]
+[2025-01-24 11:49:17 [32mINFO [0;39mrestartedMain] [[36m[org.apache.catalina.core.StandardEngine][0;39m
+ Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2025-01-24 11:49:17 [32mINFO [0;39mrestartedMain] [[36m[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]][0;39m
+ Initializing Spring embedded WebApplicationContext
+[2025-01-24 11:49:17 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][0;39m
+ Root WebApplicationContext: initialization completed in 979 ms
+[2025-01-24 11:49:17 [32mINFO [0;39mrestartedMain] [[36m[com.green.greengram.common.MyFileUtils][0;39m
+ MyFileUtils - 생성자: D:\GSY\GreenGramVer3\greengram_ver3
+[2025-01-24 11:49:17 [33mWARN [0;39mrestartedMain] [[36m[org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][0;39m
+ Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfig' defined in file [D:\GSY\GreenGramTdd\build\classes\java\main\com\green\greengram\config\security\WebSecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2025-01-24 11:49:17 [32mINFO [0;39mrestartedMain] [[36m[org.apache.catalina.core.StandardService][0;39m
+ Stopping service [Tomcat]
+[2025-01-24 11:49:17 [32mINFO [0;39mrestartedMain] [[36m[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger][0;39m
+ 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2025-01-24 11:49:17 [31mERROR[0;39mrestartedMain] [[36m[org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][0;39m
+ 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.green.greengram.config.security.WebSecurityConfig required a bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.green.greengram.config.jwt.TokenAuthenticationFilter' in your configuration.
+
+[2025-01-24 11:51:44 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-24 11:51:44 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Starting FeedLikeIntegrationTest using Java 17.0.12 with PID 4776 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-24 11:51:44 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ The following 1 profile is active: "test"
+[2025-01-24 11:51:45 INFO Test worker] [[com.green.greengram.common.MyFileUtils]
+ MyFileUtils - 생성자: D:\GSY\GreenGramTdd\Tdd
+[2025-01-24 11:51:45 WARN Test worker] [[org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration]
+ 
+
+Using generated security password: 175222ca-cad6-403a-bf5e-4c2d63da37be
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2025-01-24 11:51:45 INFO Test worker] [[org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer]
+ Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2025-01-24 11:51:46 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
  Adding welcome page: class path resource [static/index.html]
-[2025-01-23 10:11:36 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+[2025-01-24 11:51:46 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
  Initializing Spring TestDispatcherServlet ''
-[2025-01-23 10:11:36 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+[2025-01-24 11:51:46 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
  Initializing Servlet ''
-[2025-01-23 10:11:36 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+[2025-01-24 11:51:46 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 0 ms
+[2025-01-24 11:51:46 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Started FeedLikeIntegrationTest in 2.033 seconds (process running for 3.012)
+[2025-01-24 11:51:46 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Starting...
+[2025-01-24 11:51:46 INFO Test worker] [[com.zaxxer.hikari.pool.HikariPool]
+ HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@5a31abe9
+[2025-01-24 11:51:46 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Start completed.
+[2025-01-24 11:51:47 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ ip Address: 127.0.0.1
+[2025-01-24 11:51:47 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ authorizationHeader: null
+[2025-01-24 11:51:47 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ token: null
+[2025-01-24 11:51:47 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeController]
+ FeedLikeController > feedLikeToggle > p: com.green.greengram.feed.like.model.FeedLikeReq@e0f
+[2025-01-24 11:51:47 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. DELETE FROM feed_like
+        WHERE feed_id = 2 AND
+              user_id = 1
+ {executed in 0 msec}
+[2025-01-24 11:51:47 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ ip Address: 127.0.0.1
+[2025-01-24 11:51:47 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ authorizationHeader: null
+[2025-01-24 11:51:47 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ token: null
+[2025-01-24 11:51:47 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeController]
+ FeedLikeController > feedLikeToggle > p: com.green.greengram.feed.like.model.FeedLikeReq@e0f
+[2025-01-24 11:51:47 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. DELETE FROM feed_like
+        WHERE feed_id = 2 AND
+              user_id = 1
+ {executed in 0 msec}
+[2025-01-24 11:51:47 INFO SpringApplicationShutdownHook] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Shutdown initiated...
+[2025-01-24 11:51:47 INFO SpringApplicationShutdownHook] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Shutdown completed.
+[2025-01-24 11:52:17 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-24 11:52:17 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Starting FeedLikeIntegrationTest using Java 17.0.12 with PID 12180 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-24 11:52:17 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ The following 1 profile is active: "test"
+[2025-01-24 11:52:18 INFO Test worker] [[com.green.greengram.common.MyFileUtils]
+ MyFileUtils - 생성자: D:\GSY\GreenGramTdd\Tdd
+[2025-01-24 11:52:18 WARN Test worker] [[org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration]
+ 
+
+Using generated security password: 691faf22-ffc8-4c3d-a9bd-72e2436bfa7f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2025-01-24 11:52:18 INFO Test worker] [[org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer]
+ Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2025-01-24 11:52:18 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-24 11:52:19 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-24 11:52:19 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-24 11:52:19 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 8 ms
+[2025-01-24 11:52:19 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Started FeedLikeIntegrationTest in 2.044 seconds (process running for 3.027)
+[2025-01-24 11:52:19 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Starting...
+[2025-01-24 11:52:19 INFO Test worker] [[com.zaxxer.hikari.pool.HikariPool]
+ HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@65b680b4
+[2025-01-24 11:52:19 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Start completed.
+[2025-01-24 11:52:19 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ ip Address: 127.0.0.1
+[2025-01-24 11:52:19 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ authorizationHeader: null
+[2025-01-24 11:52:19 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ token: null
+[2025-01-24 11:52:19 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeController]
+ FeedLikeController > feedLikeToggle > p: com.green.greengram.feed.like.model.FeedLikeReq@ec0
+[2025-01-24 11:52:20 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. DELETE FROM feed_like
+        WHERE feed_id = 5 AND
+              user_id = 1
+ {executed in 0 msec}
+[2025-01-24 11:52:20 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. INSERT INTO feed_like
+        SET feed_id = 5,
+        user_id = 1
+ {executed in 0 msec}
+[2025-01-24 11:52:20 INFO SpringApplicationShutdownHook] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Shutdown initiated...
+[2025-01-24 11:52:20 INFO SpringApplicationShutdownHook] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Shutdown completed.
+[2025-01-24 11:52:26 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-24 11:52:26 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Starting FeedLikeIntegrationTest using Java 17.0.12 with PID 5700 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-24 11:52:26 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ The following 1 profile is active: "test"
+[2025-01-24 11:52:26 INFO Test worker] [[com.green.greengram.common.MyFileUtils]
+ MyFileUtils - 생성자: D:\GSY\GreenGramTdd\Tdd
+[2025-01-24 11:52:27 WARN Test worker] [[org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration]
+ 
+
+Using generated security password: 9cb86e0c-d854-4111-bec6-beb5c56d5f32
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2025-01-24 11:52:27 INFO Test worker] [[org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer]
+ Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2025-01-24 11:52:27 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-24 11:52:27 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-24 11:52:27 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-24 11:52:27 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Completed initialization in 0 ms
+[2025-01-24 11:52:27 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Started FeedLikeIntegrationTest in 1.91 seconds (process running for 2.869)
+[2025-01-24 11:52:27 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Starting...
+[2025-01-24 11:52:27 INFO Test worker] [[com.zaxxer.hikari.pool.HikariPool]
+ HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@24a7d3d3
+[2025-01-24 11:52:27 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Start completed.
+[2025-01-24 11:52:28 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ ip Address: 127.0.0.1
+[2025-01-24 11:52:28 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ authorizationHeader: null
+[2025-01-24 11:52:28 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ token: null
+[2025-01-24 11:52:28 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeController]
+ FeedLikeController > feedLikeToggle > p: com.green.greengram.feed.like.model.FeedLikeReq@ec0
+[2025-01-24 11:52:28 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. DELETE FROM feed_like
+        WHERE feed_id = 5 AND
+              user_id = 1
+ {executed in 0 msec}
+[2025-01-24 11:52:28 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. INSERT INTO feed_like
+        SET feed_id = 5,
+        user_id = 1
+ {executed in 0 msec}
+[2025-01-24 11:52:28 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ ip Address: 127.0.0.1
+[2025-01-24 11:52:28 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ authorizationHeader: null
+[2025-01-24 11:52:28 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ token: null
+[2025-01-24 11:52:28 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeController]
+ FeedLikeController > feedLikeToggle > p: com.green.greengram.feed.like.model.FeedLikeReq@e0f
+[2025-01-24 11:52:28 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. DELETE FROM feed_like
+        WHERE feed_id = 2 AND
+              user_id = 1
+ {executed in 0 msec}
+[2025-01-24 11:52:28 INFO SpringApplicationShutdownHook] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Shutdown initiated...
+[2025-01-24 11:52:28 INFO SpringApplicationShutdownHook] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Shutdown completed.
+[2025-01-24 11:55:03 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+ HV000001: Hibernate Validator 8.0.1.Final
+[2025-01-24 11:55:03 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Starting FeedLikeIntegrationTest using Java 17.0.12 with PID 9940 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-24 11:55:03 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ The following 1 profile is active: "test"
+[2025-01-24 11:55:04 INFO Test worker] [[com.green.greengram.common.MyFileUtils]
+ MyFileUtils - 생성자: D:\GSY\GreenGramTdd\Tdd
+[2025-01-24 11:55:04 WARN Test worker] [[org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration]
+ 
+
+Using generated security password: 036d6ab6-bff6-4e8a-bd02-cfdd3623b72d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2025-01-24 11:55:04 INFO Test worker] [[org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer]
+ Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2025-01-24 11:55:04 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+ Adding welcome page: class path resource [static/index.html]
+[2025-01-24 11:55:05 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+ Initializing Spring TestDispatcherServlet ''
+[2025-01-24 11:55:05 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+ Initializing Servlet ''
+[2025-01-24 11:55:05 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
  Completed initialization in 1 ms
-[2025-01-23 10:11:36 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.844 seconds (process running for 2.793)
-[2025-01-23 11:53:49 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+[2025-01-24 11:55:05 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Started FeedLikeIntegrationTest in 2.19 seconds (process running for 3.39)
+[2025-01-24 11:55:05 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Starting...
+[2025-01-24 11:55:05 INFO Test worker] [[com.zaxxer.hikari.pool.HikariPool]
+ HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@50ecef36
+[2025-01-24 11:55:05 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Start completed.
+[2025-01-24 11:55:37 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ ip Address: 127.0.0.1
+[2025-01-24 11:55:37 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ authorizationHeader: null
+[2025-01-24 11:55:37 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ token: null
+[2025-01-24 11:56:33 WARN HikariPool-1 housekeeper] [[com.zaxxer.hikari.pool.HikariPool]
+ HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s661ms516µs600ns).
+[2025-01-24 11:56:33 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeController]
+ FeedLikeController > feedLikeToggle > p: com.green.greengram.feed.like.model.FeedLikeReq@ec0
+[2025-01-24 11:57:29 WARN HikariPool-1 housekeeper] [[com.zaxxer.hikari.pool.HikariPool]
+ HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s628ms296µs900ns).
+[2025-01-24 11:57:29 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. DELETE FROM feed_like
+        WHERE feed_id = 5 AND
+              user_id = 1
+ {executed in 0 msec}
+[2025-01-24 11:57:29 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. INSERT INTO feed_like
+        SET feed_id = 5,
+        user_id = 1
+ {executed in 0 msec}
+[2025-01-24 11:58:32 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
  HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 11:53:49 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 12888 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 11:53:49 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 11:53:50 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+[2025-01-24 11:58:32 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Starting FeedLikeIntegrationTest using Java 17.0.12 with PID 5324 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-24 11:58:32 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ The following 1 profile is active: "test"
+[2025-01-24 11:58:33 INFO Test worker] [[com.green.greengram.common.MyFileUtils]
+ MyFileUtils - 생성자: D:\GSY\GreenGramTdd\Tdd
+[2025-01-24 11:58:34 WARN Test worker] [[org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration]
+ 
+
+Using generated security password: 656c9d6a-f711-4772-bbf2-bc742e8babc4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2025-01-24 11:58:34 INFO Test worker] [[org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer]
+ Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2025-01-24 11:58:34 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
  Adding welcome page: class path resource [static/index.html]
-[2025-01-23 11:53:50 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+[2025-01-24 11:58:34 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
  Initializing Spring TestDispatcherServlet ''
-[2025-01-23 11:53:50 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+[2025-01-24 11:58:34 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
  Initializing Servlet ''
-[2025-01-23 11:53:50 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+[2025-01-24 11:58:34 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
  Completed initialization in 1 ms
-[2025-01-23 11:53:50 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.794 seconds (process running for 2.752)
-[2025-01-23 11:53:51 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
- FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=22)
-[2025-01-23 11:56:11 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+[2025-01-24 11:58:34 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Started FeedLikeIntegrationTest in 2.223 seconds (process running for 3.329)
+[2025-01-24 11:58:34 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Starting...
+[2025-01-24 11:58:34 INFO Test worker] [[com.zaxxer.hikari.pool.HikariPool]
+ HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@593f7d2e
+[2025-01-24 11:58:34 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Start completed.
+[2025-01-24 11:58:41 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ ip Address: 127.0.0.1
+[2025-01-24 11:58:41 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ authorizationHeader: null
+[2025-01-24 11:58:41 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ token: null
+[2025-01-24 11:58:42 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeController]
+ FeedLikeController > feedLikeToggle > p: com.green.greengram.feed.like.model.FeedLikeReq@ec0
+[2025-01-24 11:58:43 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. DELETE FROM feed_like
+        WHERE feed_id = 5 AND
+              user_id = 1
+ {executed in 1 msec}
+[2025-01-24 11:58:43 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. INSERT INTO feed_like
+        SET feed_id = 5,
+        user_id = 1
+ {executed in 0 msec}
+[2025-01-24 11:59:30 WARN HikariPool-1 housekeeper] [[com.zaxxer.hikari.pool.HikariPool]
+ HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s326ms39µs700ns).
+[2025-01-24 12:02:16 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
  HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 11:56:11 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 10304 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 11:56:11 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 11:56:12 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+[2025-01-24 12:02:16 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Starting FeedLikeIntegrationTest using Java 17.0.12 with PID 13092 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-24 12:02:16 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ The following 1 profile is active: "test"
+[2025-01-24 12:02:17 INFO Test worker] [[com.green.greengram.common.MyFileUtils]
+ MyFileUtils - 생성자: D:\GSY\GreenGramTdd\Tdd
+[2025-01-24 12:02:17 WARN Test worker] [[org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration]
+ 
+
+Using generated security password: 0b36f83a-e1a1-4ca7-8606-9efdc419c208
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2025-01-24 12:02:17 INFO Test worker] [[org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer]
+ Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2025-01-24 12:02:17 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
  Adding welcome page: class path resource [static/index.html]
-[2025-01-23 11:56:12 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+[2025-01-24 12:02:18 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
  Initializing Spring TestDispatcherServlet ''
-[2025-01-23 11:56:12 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+[2025-01-24 12:02:18 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
  Initializing Servlet ''
-[2025-01-23 11:56:12 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+[2025-01-24 12:02:18 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
  Completed initialization in 1 ms
-[2025-01-23 11:56:12 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.805 seconds (process running for 2.738)
-[2025-01-23 11:56:49 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
+[2025-01-24 12:02:18 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Started FeedLikeIntegrationTest in 1.992 seconds (process running for 2.962)
+[2025-01-24 12:02:18 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Starting...
+[2025-01-24 12:02:18 INFO Test worker] [[com.zaxxer.hikari.pool.HikariPool]
+ HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@6b71e98f
+[2025-01-24 12:02:18 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Start completed.
+[2025-01-24 12:02:19 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ ip Address: 127.0.0.1
+[2025-01-24 12:02:19 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ authorizationHeader: null
+[2025-01-24 12:02:19 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ token: null
+[2025-01-24 12:02:19 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeController]
+ FeedLikeController > feedLikeToggle > p: com.green.greengram.feed.like.model.FeedLikeReq@ec0
+[2025-01-24 12:02:19 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. DELETE FROM feed_like
+        WHERE feed_id = 5 AND
+              user_id = 1
+ {executed in 1 msec}
+[2025-01-24 12:02:19 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. INSERT INTO feed_like
+        SET feed_id = 5,
+        user_id = 1
+ {executed in 0 msec}
+[2025-01-24 12:02:19 INFO SpringApplicationShutdownHook] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Shutdown initiated...
+[2025-01-24 12:02:19 INFO SpringApplicationShutdownHook] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Shutdown completed.
+[2025-01-24 12:07:47 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
  HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 11:56:49 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 13128 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 11:56:49 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 11:56:50 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+[2025-01-24 12:07:47 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Starting FeedLikeIntegrationTest using Java 17.0.12 with PID 12524 (started by Administrator in D:\GSY\GreenGramTdd)
+[2025-01-24 12:07:47 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ The following 1 profile is active: "test"
+[2025-01-24 12:07:48 INFO Test worker] [[com.green.greengram.common.MyFileUtils]
+ MyFileUtils - 생성자: D:\GSY\GreenGramTdd\Tdd
+[2025-01-24 12:07:48 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Starting...
+[2025-01-24 12:07:48 INFO Test worker] [[com.zaxxer.hikari.pool.HikariPool]
+ HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@1dca62c2
+[2025-01-24 12:07:48 INFO Test worker] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Start completed.
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. CREATE DATABASE IF NOT EXISTS `greengram_ver3_test`
+ {executed in 1 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. USE `greengram_ver3_test`
+ {executed in 0 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. DROP TABLE IF EXISTS `feed_pic`
+ {executed in 8 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. DROP TABLE IF EXISTS `feed_like`
+ {executed in 7 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. DROP TABLE IF EXISTS `feed_comment`
+ {executed in 8 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. DROP TABLE IF EXISTS `feed`
+ {executed in 7 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. DROP TABLE IF EXISTS `user_follow`
+ {executed in 8 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. DROP TABLE IF EXISTS `user`
+ {executed in 6 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. CREATE TABLE `user` ( `user_id` bigint(20) NOT NULL AUTO_INCREMENT, `uid` varchar(30) NOT NULL, `upw` varchar(100) NOT NULL, `nick_name` varchar(30) DEFAULT NULL, `pic` varchar(50) DEFAULT NULL, `created_at` datetime NOT NULL DEFAULT current_timestamp(), `updated_at` datetime DEFAULT NULL ON UPDATE current_timestamp(), PRIMARY KEY (`user_id`), UNIQUE KEY `uid` (`uid`) )
+ {executed in 10 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. CREATE TABLE `user_follow` ( `from_user_id` bigint(20) NOT NULL, `to_user_id` bigint(20) NOT NULL, `created_at` datetime NOT NULL DEFAULT current_timestamp(), PRIMARY KEY (`from_user_id`,`to_user_id`), KEY `to_user_id` (`to_user_id`), CONSTRAINT `user_follow_ibfk_1` FOREIGN KEY (`from_user_id`) REFERENCES `user` (`user_id`) ON DELETE CASCADE, CONSTRAINT `user_follow_ibfk_2` FOREIGN KEY (`to_user_id`) REFERENCES `user` (`user_id`) ON DELETE CASCADE, CONSTRAINT `CONSTRAINT_1` CHECK (`from_user_id` <> `to_user_id`) )
+ {executed in 7 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. CREATE TABLE `feed` ( `feed_id` bigint(20) NOT NULL AUTO_INCREMENT, `writer_user_id` bigint(20) NOT NULL, `contents` varchar(1000) DEFAULT NULL, `location` varchar(30) DEFAULT NULL, `created_at` datetime NOT NULL DEFAULT current_timestamp(), `updated_at` datetime DEFAULT NULL ON UPDATE current_timestamp(), PRIMARY KEY (`feed_id`), KEY `FK_FEED_writer_user_id` (`writer_user_id`), CONSTRAINT `FK_FEED_writer_user_id` FOREIGN KEY (`writer_user_id`) REFERENCES `user` (`user_id`) ON DELETE CASCADE )
+ {executed in 9 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. CREATE TABLE `feed_comment` ( `feed_comment_id` bigint(20) NOT NULL AUTO_INCREMENT, `feed_id` bigint(20) NOT NULL, `user_id` bigint(20) NOT NULL, `COMMENT` varchar(150) NOT NULL, `created_at` datetime NOT NULL DEFAULT current_timestamp(), `updated_at` datetime DEFAULT NULL ON UPDATE current_timestamp(), PRIMARY KEY (`feed_comment_id`), KEY `feed_id` (`feed_id`), KEY `user_id` (`user_id`), CONSTRAINT `feed_comment_ibfk_1` FOREIGN KEY (`feed_id`) REFERENCES `feed` (`feed_id`) ON DELETE CASCADE, CONSTRAINT `feed_comment_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`) ON DELETE CASCADE )
+ {executed in 10 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. CREATE TABLE `feed_like` ( `feed_id` bigint(20) NOT NULL, `user_id` bigint(20) NOT NULL, `created_at` datetime NOT NULL DEFAULT current_timestamp(), PRIMARY KEY (`feed_id`,`user_id`), KEY `user_id` (`user_id`), CONSTRAINT `feed_like_ibfk_1` FOREIGN KEY (`feed_id`) REFERENCES `feed` (`feed_id`) ON DELETE CASCADE, CONSTRAINT `feed_like_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`) ON DELETE CASCADE )
+ {executed in 10 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. CREATE TABLE `feed_pic` ( `feed_id` bigint(20) NOT NULL, `pic` varchar(50) NOT NULL, `created_at` datetime NOT NULL DEFAULT current_timestamp(), PRIMARY KEY (`feed_id`,`pic`), CONSTRAINT `feed_pic_ibfk_1` FOREIGN KEY (`feed_id`) REFERENCES `feed` (`feed_id`) ON DELETE CASCADE )
+ {executed in 7 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. INSERT INTO `user` (`user_id`, `uid`, `upw`, `nick_name`, `pic`, `created_at`) VALUES (1, 'mic', '$2a$10$cVRpfytmEdzvs1I4oqqRXOWUleJHm6xKjOnHqA3EEJ5.Q0cAtbhte', '홍길동', NULL, '2024-11-01 10:10:01'), (2, 'jacob', '$2a$10$cVRpfytmEdzvs1I4oqqRXOWUleJHm6xKjOnHqA3EEJ5.Q0cAtbhte', '제이콥', NULL, '2024-11-01 10:10:02')
+ {executed in 2 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. INSERT INTO `feed` (`feed_id`, `writer_user_id`, `contents`, `location`, `created_at`, `updated_at`) VALUES (1, 1, '1번 글', '1번 위치', '2024-11-01 10:10:01', NULL), (2, 2, '2번 글', '2번 위치', '2024-11-01 10:10:02', NULL), (3, 1, '3번 글', '3번 위치', '2024-11-01 10:10:03', NULL), (4, 2, '4번 글', '4번 위치', '2024-11-01 10:10:04', NULL), (5, 1, '5번 글', '5번 위치', '2024-11-01 10:10:05', NULL)
+ {executed in 2 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. INSERT INTO `feed_like` (`feed_id`, `user_id`, `created_at`) VALUES (1, 2, '2024-11-01 10:10:01'), (2, 1, '2024-11-01 10:10:02'), (3, 2, '2024-11-01 10:10:03')
+ {executed in 2 msec}
+[2025-01-24 12:07:48 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. INSERT INTO `feed_comment` (`feed_comment_id`, `feed_id`, `user_id`, `COMMENT`, `created_at`) VALUES (1, 1, 1, '1번 댓글', '2024-11-01 10:10:01'), (2, 2, 2, '2번 댓글', '2024-11-01 10:10:02'), (3, 3, 1, '3번 댓글', '2024-11-01 10:10:03'), (4, 4, 2, '4번 댓글', '2024-11-01 10:10:04'), (5, 5, 1, '5번 댓글', '2024-11-01 10:10:05'), (6, 1, 2, '6번 댓글', '2024-11-01 10:10:06')
+ {executed in 2 msec}
+[2025-01-24 12:07:49 WARN Test worker] [[org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration]
+ 
+
+Using generated security password: e59caa32-7b6c-47bf-9b9e-06644d748bb2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2025-01-24 12:07:49 INFO Test worker] [[org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer]
+ Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2025-01-24 12:07:49 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
  Adding welcome page: class path resource [static/index.html]
-[2025-01-23 11:56:50 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
+[2025-01-24 12:07:49 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
  Initializing Spring TestDispatcherServlet ''
-[2025-01-23 11:56:51 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+[2025-01-24 12:07:49 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
  Initializing Servlet ''
-[2025-01-23 11:56:51 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
+[2025-01-24 12:07:49 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
  Completed initialization in 1 ms
-[2025-01-23 11:56:51 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.804 seconds (process running for 2.748)
-[2025-01-23 11:56:51 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
- FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
-[2025-01-23 11:57:08 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
- HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 11:57:08 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 12860 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 11:57:08 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 11:57:09 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
- Adding welcome page: class path resource [static/index.html]
-[2025-01-23 11:57:09 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
- Initializing Spring TestDispatcherServlet ''
-[2025-01-23 11:57:09 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Initializing Servlet ''
-[2025-01-23 11:57:09 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Completed initialization in 1 ms
-[2025-01-23 11:57:09 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.784 seconds (process running for 2.772)
-[2025-01-23 11:57:33 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
- HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 11:57:33 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 6284 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 11:57:33 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 11:57:34 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
- Adding welcome page: class path resource [static/index.html]
-[2025-01-23 11:57:34 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
- Initializing Spring TestDispatcherServlet ''
-[2025-01-23 11:57:34 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Initializing Servlet ''
-[2025-01-23 11:57:34 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Completed initialization in 2 ms
-[2025-01-23 11:57:34 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.795 seconds (process running for 2.731)
-[2025-01-23 11:57:34 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
- FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
-[2025-01-23 11:58:22 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
- HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 11:58:22 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 11412 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 11:58:22 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 11:58:24 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
- Adding welcome page: class path resource [static/index.html]
-[2025-01-23 11:58:24 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
- Initializing Spring TestDispatcherServlet ''
-[2025-01-23 11:58:24 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Initializing Servlet ''
-[2025-01-23 11:58:24 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Completed initialization in 1 ms
-[2025-01-23 11:58:24 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.811 seconds (process running for 2.77)
-[2025-01-23 11:58:24 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
- FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
-[2025-01-23 11:59:31 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
- HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 11:59:32 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 12884 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 11:59:32 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 11:59:33 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
- Adding welcome page: class path resource [static/index.html]
-[2025-01-23 11:59:33 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
- Initializing Spring TestDispatcherServlet ''
-[2025-01-23 11:59:33 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Initializing Servlet ''
-[2025-01-23 11:59:33 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Completed initialization in 1 ms
-[2025-01-23 11:59:33 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.79 seconds (process running for 2.749)
-[2025-01-23 11:59:33 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
- FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
-[2025-01-23 12:01:10 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
- HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 12:01:10 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 9300 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 12:01:10 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 12:01:11 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
- Adding welcome page: class path resource [static/index.html]
-[2025-01-23 12:01:11 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
- Initializing Spring TestDispatcherServlet ''
-[2025-01-23 12:01:11 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Initializing Servlet ''
-[2025-01-23 12:01:11 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Completed initialization in 1 ms
-[2025-01-23 12:01:11 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.794 seconds (process running for 2.75)
-[2025-01-23 12:02:11 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
- HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 12:02:11 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 12740 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 12:02:11 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 12:02:12 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
- Adding welcome page: class path resource [static/index.html]
-[2025-01-23 12:02:12 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
- Initializing Spring TestDispatcherServlet ''
-[2025-01-23 12:02:12 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Initializing Servlet ''
-[2025-01-23 12:02:12 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Completed initialization in 1 ms
-[2025-01-23 12:02:12 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.83 seconds (process running for 2.784)
-[2025-01-23 12:02:12 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
- FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
-[2025-01-23 12:02:43 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
- HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 12:02:43 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 11424 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 12:02:43 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 12:02:44 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
- Adding welcome page: class path resource [static/index.html]
-[2025-01-23 12:02:45 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
- Initializing Spring TestDispatcherServlet ''
-[2025-01-23 12:02:45 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Initializing Servlet ''
-[2025-01-23 12:02:45 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Completed initialization in 1 ms
-[2025-01-23 12:02:45 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.792 seconds (process running for 2.72)
-[2025-01-23 12:02:45 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
- FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
-[2025-01-23 12:03:01 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
- HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 12:03:01 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 10456 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 12:03:01 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 12:03:02 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
- Adding welcome page: class path resource [static/index.html]
-[2025-01-23 12:03:02 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
- Initializing Spring TestDispatcherServlet ''
-[2025-01-23 12:03:02 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Initializing Servlet ''
-[2025-01-23 12:03:02 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Completed initialization in 1 ms
-[2025-01-23 12:03:02 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.801 seconds (process running for 2.748)
-[2025-01-23 12:03:02 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
- FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
-[2025-01-23 12:03:52 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
- HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 12:03:52 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 11740 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 12:03:52 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 12:03:54 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
- Adding welcome page: class path resource [static/index.html]
-[2025-01-23 12:03:54 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
- Initializing Spring TestDispatcherServlet ''
-[2025-01-23 12:03:54 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Initializing Servlet ''
-[2025-01-23 12:03:54 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Completed initialization in 1 ms
-[2025-01-23 12:03:54 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.791 seconds (process running for 2.729)
-[2025-01-23 12:03:54 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
- FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
-[2025-01-23 12:11:34 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
- HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 12:11:34 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 11680 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 12:11:34 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 12:11:35 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
- Adding welcome page: class path resource [static/index.html]
-[2025-01-23 12:11:35 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
- Initializing Spring TestDispatcherServlet ''
-[2025-01-23 12:11:35 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Initializing Servlet ''
-[2025-01-23 12:11:35 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Completed initialization in 2 ms
-[2025-01-23 12:11:35 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.825 seconds (process running for 2.759)
-[2025-01-23 12:11:35 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
- FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
-[2025-01-23 12:13:04 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
- HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 12:13:04 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 12860 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 12:13:04 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 12:13:05 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
- Adding welcome page: class path resource [static/index.html]
-[2025-01-23 12:13:05 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
- Initializing Spring TestDispatcherServlet ''
-[2025-01-23 12:13:05 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Initializing Servlet ''
-[2025-01-23 12:13:05 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Completed initialization in 1 ms
-[2025-01-23 12:13:05 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.842 seconds (process running for 2.979)
-[2025-01-23 12:13:25 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
- FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
-[2025-01-23 12:13:47 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
- HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 12:13:47 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 11312 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 12:13:47 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 12:13:49 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
- Adding welcome page: class path resource [static/index.html]
-[2025-01-23 12:13:49 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
- Initializing Spring TestDispatcherServlet ''
-[2025-01-23 12:13:49 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Initializing Servlet ''
-[2025-01-23 12:13:49 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Completed initialization in 1 ms
-[2025-01-23 12:13:49 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.867 seconds (process running for 2.903)
-[2025-01-23 12:14:05 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
- FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
-[2025-01-23 12:16:03 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
- FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
-[2025-01-23 12:16:35 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
- HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 12:16:36 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 13016 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 12:16:36 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 12:16:37 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
- Adding welcome page: class path resource [static/index.html]
-[2025-01-23 12:16:37 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
- Initializing Spring TestDispatcherServlet ''
-[2025-01-23 12:16:37 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Initializing Servlet ''
-[2025-01-23 12:16:37 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Completed initialization in 1 ms
-[2025-01-23 12:16:37 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.842 seconds (process running for 2.881)
-[2025-01-23 12:17:30 INFO background-preinit] [[org.hibernate.validator.internal.util.Version]
- HV000001: Hibernate Validator 8.0.1.Final
-[2025-01-23 12:17:30 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Starting FeedCommentControllerTest using Java 17.0.12 with PID 13004 (started by Administrator in D:\GSY\GreenGramTdd)
-[2025-01-23 12:17:30 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- No active profile set, falling back to 1 default profile: "default"
-[2025-01-23 12:17:31 INFO Test worker] [[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
- Adding welcome page: class path resource [static/index.html]
-[2025-01-23 12:17:32 INFO Test worker] [[org.springframework.boot.test.mock.web.SpringBootMockServletContext]
- Initializing Spring TestDispatcherServlet ''
-[2025-01-23 12:17:32 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Initializing Servlet ''
-[2025-01-23 12:17:32 INFO Test worker] [[org.springframework.test.web.servlet.TestDispatcherServlet]
- Completed initialization in 1 ms
-[2025-01-23 12:17:32 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentControllerTest]
- Started FeedCommentControllerTest in 1.854 seconds (process running for 2.879)
-[2025-01-23 12:17:33 INFO Test worker] [[com.green.greengram.feed.comment.FeedCommentController]
- FeedCommentController > getFeedComment > p: FeedCommentGetReq(feedId=2, startIdx=1, size=21)
+[2025-01-24 12:07:49 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeIntegrationTest]
+ Started FeedLikeIntegrationTest in 2.341 seconds (process running for 3.316)
+[2025-01-24 12:07:50 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ ip Address: 127.0.0.1
+[2025-01-24 12:07:50 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ authorizationHeader: null
+[2025-01-24 12:07:50 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ token: null
+[2025-01-24 12:07:50 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeController]
+ FeedLikeController > feedLikeToggle > p: com.green.greengram.feed.like.model.FeedLikeReq@ec0
+[2025-01-24 12:07:50 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. DELETE FROM feed_like
+        WHERE feed_id = 5 AND
+              user_id = 1
+ {executed in 1 msec}
+[2025-01-24 12:07:50 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. INSERT INTO feed_like
+        SET feed_id = 5,
+        user_id = 1
+ {executed in 2 msec}
+[2025-01-24 12:07:50 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ ip Address: 127.0.0.1
+[2025-01-24 12:07:50 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ authorizationHeader: null
+[2025-01-24 12:07:50 INFO Test worker] [[com.green.greengram.config.jwt.TokenAuthenticationFilter]
+ token: null
+[2025-01-24 12:07:50 INFO Test worker] [[com.green.greengram.feed.like.FeedLikeController]
+ FeedLikeController > feedLikeToggle > p: com.green.greengram.feed.like.model.FeedLikeReq@e0f
+[2025-01-24 12:07:50 DEBUGTest worker] [[jdbc.sqltiming]
+  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. DELETE FROM feed_like
+        WHERE feed_id = 2 AND
+              user_id = 1
+ {executed in 1 msec}
+[2025-01-24 12:07:50 INFO SpringApplicationShutdownHook] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Shutdown initiated...
+[2025-01-24 12:07:50 INFO SpringApplicationShutdownHook] [[com.zaxxer.hikari.HikariDataSource]
+ HikariPool-1 - Shutdown completed.
